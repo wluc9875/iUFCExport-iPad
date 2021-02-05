@@ -7,6 +7,8 @@ I'll push the Xcode project content into this repo as soon as Apple has approved
 Normally, no configuration is needed. However, your local router may be too strict with local network broadcasts and you'll notice that your button pushes on the iPad will not reflect in DCS.
 That's why there's a "Config" button in the top right of the home screen, where you select your plane.
 
+*Note that depending on your iPad iOS version, some alternative IP addresses may work and other not. The last one should work in all cases.* 
+
 Click on this "Config" button.
 An alert will display with the  generic local network broadcast IP: `255.255.255.255`.
 
