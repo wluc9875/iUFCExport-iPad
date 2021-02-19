@@ -29,6 +29,7 @@ class JF17ViewController: PlaneViewController {
     @IBOutlet var hnsButton: UIButton!
     @IBOutlet var apButton: UIButton!
     @IBOutlet var fpmButton: UIButton!
+    @IBOutlet var fastSelectImageView: UIImageView!
     
     static let FULL_TEXT_KEYS = ["txt_win1", "txt_win2", "txt_win3", "txt_win4"]
     static let FILL_TEXT_KEYS = ["txt_win1_fill", "txt_win2_fill", "txt_win3_fill", "txt_win4_fill"]
@@ -68,6 +69,27 @@ class JF17ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 46, commandId: 3220), // UFCP Button R3 (22)
             Action(type: .pushButton, deviceId: 46, commandId: 3226), // UFCP Button L4 (23)
             Action(type: .pushButton, deviceId: 46, commandId: 3227), // UFCP Button R4 (24)
+            
+            Action(type: .pushButton, deviceId: 46, commandId: 3225), // UFCP Button BLANKNUM (25)
+            Action(type: .pushButton, deviceId: 46, commandId: 3228), // UFCP Button BLANKMODE1 (26)
+            Action(type: .pushButton, deviceId: 46, commandId: 3229), // UFCP Button BLANKMODE2 (27)
+            Action(type: .momentary3Way, deviceId: 46, commandId: 3232, argument: -1.0), // FAST SELECT INC (28)
+            Action(type: .momentary3Way, deviceId: 46, commandId: 3232), // FAST SELECT DEC (29)
+        ]
+        
+        originalSwitchImages = [
+            28: "",
+            29: ""
+        ]
+        
+        alternateSwitchImages = [
+            28: "JF17/DED_INC",
+            29: "JF17/DED_DEC",
+        ]
+        
+        actionToViewDict = [
+            28: fastSelectImageView,
+            29: fastSelectImageView,
         ]
     }
     
