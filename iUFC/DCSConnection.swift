@@ -86,7 +86,7 @@ class DCSConnection {
         outboundConnection?.stateUpdateHandler = { [unowned self] newState in
             switch newState {
             case .failed(let error):
-                print("Outbound connectino error: \(error)")
+                print("Outbound connection error: \(error)")
                 self.outboundConnection?.cancel()
             default:
                 break
@@ -98,6 +98,7 @@ class DCSConnection {
     deinit {
         outboundConnection?.cancel()
         inboundConnection?.cancel()
+        listener?.newConnectionHandler = nil
         listener?.cancel()
     }
     
