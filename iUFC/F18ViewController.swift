@@ -113,6 +113,7 @@ class F18ViewController: PlaneViewController {
         var scratchpadText = content["UFC_ScratchPadNumberDisplay"] ?? ""
         scratchpadText = scratchpadText.replacingOccurrences(of: "@", with: "°")
         scratchpadText = scratchpadText.replacingOccurrences(of: ".", with: "o")
+        scratchpadText = scratchpadText.replacingOccurrences(of: "pww0w", with: "ERROR")
         var comm1Text = content["UFC_Comm1Display"] ?? ""
         comm1Text = comm1Text.replacingOccurrences(of: "`", with: "1")
         comm1Text = comm1Text.replacingOccurrences(of: "~", with: "2")
