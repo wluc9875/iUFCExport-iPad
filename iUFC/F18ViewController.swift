@@ -117,9 +117,11 @@ class F18ViewController: PlaneViewController {
         var comm1Text = content["UFC_Comm1Display"] ?? ""
         comm1Text = comm1Text.replacingOccurrences(of: "`", with: "1")
         comm1Text = comm1Text.replacingOccurrences(of: "~", with: "2")
+        comm1Text = comm1Text.replacingOccurrences(of: "d", with: "\\/")
         var comm2Text = content["UFC_Comm2Display"] ?? ""
         comm2Text = comm2Text.replacingOccurrences(of: "`", with: "1")
         comm2Text = comm2Text.replacingOccurrences(of: "~", with: "2")
+        comm2Text = comm2Text.replacingOccurrences(of: "d", with: "\\/")
         
         DispatchQueue.main.async {
             self.osbLabel1.text = optionQueuing1 + (content["UFC_OptionDisplay1"] ?? "")
