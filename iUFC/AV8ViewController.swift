@@ -89,13 +89,22 @@ class AV8ViewController: PlaneViewController {
         if !comm1.isEmpty {comm1.removeFirst()}
         var comm2 = content["ufc_chnl_2_m"] ?? ""
         if !comm2.isEmpty {comm2.removeFirst()}
+        let odu1Text = content["ODU_Option_1_Text"] ?? ""
+        let odu2Text = content["ODU_Option_2_Text"] ?? ""
+        var odu3Text = content["ODU_Option_3_Text"] ?? ""
+        let odu4Text = content["ODU_Option_4_Text"] ?? ""
+        let odu5Text = content["ODU_Option_5_Text"] ?? ""
+        // remove Razbam garbage from ODU 3 (only happens in BCN context)
+        if odu1Text == "STBY" && odu2Text == "NORM" {
+            odu3Text = ""
+        }
         
         DispatchQueue.main.async {
-            self.oduLabel1.text = "\(content["ODU_Option_1_Slc"] ?? "") \(content["ODU_Option_1_Text"] ?? "")"
-            self.oduLabel2.text = "\(content["ODU_Option_2_Slc"] ?? "") \(content["ODU_Option_2_Text"] ?? "")"
-            self.oduLabel3.text = "\(content["ODU_Option_3_Slc"] ?? "") \(content["ODU_Option_3_Text"] ?? "")"
-            self.oduLabel4.text = "\(content["ODU_Option_4_Slc"] ?? "") \(content["ODU_Option_4_Text"] ?? "")"
-            self.oduLabel5.text = "\(content["ODU_Option_5_Slc"] ?? "") \(content["ODU_Option_5_Text"] ?? "")"
+            self.oduLabel1.text = "\(content["ODU_Option_1_Slc"] ?? "") \(odu1Text)"
+            self.oduLabel2.text = "\(content["ODU_Option_2_Slc"] ?? "") \(odu2Text)"
+            self.oduLabel3.text = "\(content["ODU_Option_3_Slc"] ?? "") \(odu3Text)"
+            self.oduLabel4.text = "\(content["ODU_Option_4_Slc"] ?? "") \(odu4Text)"
+            self.oduLabel5.text = "\(content["ODU_Option_5_Slc"] ?? "") \(odu5Text)"
             self.scratchpadLeftLabel.text = content["ufc_left_position"] ?? ""
             self.scratchpadRightLabel.text = scratchpadRight
             self.com1Label.text = comm1

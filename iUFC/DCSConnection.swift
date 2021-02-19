@@ -115,8 +115,9 @@ class DCSConnection {
         //print ("receiveOn called on ", "\(connection.endpoint)")
         connection.receiveMessage {[unowned connection, unowned self] data, context, isComplete, error in
             //print ("message received on ", "\(connection.endpoint)")
-            guard let data = data, let content = String(data: data, encoding: String.Encoding.utf8) else {
+            guard let data = data, let content = String(data: data, encoding: String.Encoding.ascii) else {
                 print("Couldn't receive data")
+                connection.cancel()
                 return
             }
             if isComplete {
