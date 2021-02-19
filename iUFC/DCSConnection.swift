@@ -22,8 +22,8 @@ import Network
 /// A `DCSConnection` represents a bi-directional communication channel between DCS and this iPad.
 class DCSConnection {
     // These are the default values
-    static let INBOUND_PORT:UInt16 = 7676
-    static let OUTBOUND_PORT:UInt16 = 7677
+    static var INBOUND_PORT:UInt16 = UInt16(UserDefaults.standard.string(forKey: "INBOUND_PORT") ?? "7676") ?? 7676
+    static var OUTBOUND_PORT:UInt16 = INBOUND_PORT + 1
     static var OUTBOUND_IP_ADDRESS = UserDefaults.standard.string(forKey: "OUTBOUND_IP_ADDRESS") ?? "255.255.255.255"
     static let INBOUND_QUEUE = DispatchQueue(label: "DCS Inbound Queue")
     static let OUTBOUND_QUEUE = DispatchQueue(label: "DCS Outbound Queue")

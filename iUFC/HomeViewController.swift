@@ -34,16 +34,26 @@ class HomeViewController: UITableViewController {
     }
     
     @objc func configureOutboundIPAddress() {
-        let ac = UIAlertController(title: "Outbound Address", message: "Enter IP Address", preferredStyle: .alert)
+        let ac = UIAlertController(title: "Network Configuration", message: "Enter Outbound IP Address and Base Port", preferredStyle: .alert)
         ac.addTextField() {
             textField in
             textField.text = DCSConnection.OUTBOUND_IP_ADDRESS
+        }
+        ac.addTextField() {
+            textField in
+            textField.text = String(format: "%d", DCSConnection.INBOUND_PORT)
         }
         let action = UIAlertAction(title: "OK", style: .default) {
             [weak ac] _ in
             guard let ipAddress = ac?.textFields?[0].text else {return}
             DCSConnection.OUTBOUND_IP_ADDRESS = ipAddress
             UserDefaults.standard.set(ipAddress, forKey: "OUTBOUND_IP_ADDRESS")
+            
+            guard let inboundPortAsString = ac?.textFields?[1].text else {return}
+            guard let inboundPort = UInt16(inboundPortAsString) else {return}
+            DCSConnection.INBOUND_PORT = inboundPort
+            DCSConnection.OUTBOUND_PORT = inboundPort + 1
+            UserDefaults.standard.set(inboundPort, forKey: "INBOUND_PORT")
         }
         ac.addAction(action)
         present(ac, animated: true)
