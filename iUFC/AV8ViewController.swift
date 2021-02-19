@@ -62,7 +62,7 @@ class AV8ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 23, commandId: 3324), // UFC Button ALT (22)
             Action(type: .pushButton, deviceId: 23, commandId: 3325), // UFC Button EMCON (23)
             Action(type: .pushButton, deviceId: 23, commandId: 3294), // UFC Button TMR (24)
-            Action(type: .pushButton, deviceId: 23, commandId: 3294), // UFC Button TOO (25) // TO BE FIXED
+            Action(type: .pushButton, deviceId: 23, commandId: 3296), // UFC Button TOO (25)
             Action(type: .pushButton, deviceId: 23, commandId: 3297), // UFC Button I/P (26)
             
             // ODU
