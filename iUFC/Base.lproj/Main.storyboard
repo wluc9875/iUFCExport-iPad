@@ -1520,8 +1520,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLS-Q1-jTY" userLabel="BLANK_NUM">
-                                        <rect key="frame" x="204" y="370" width="54" height="50"/>
+                                        <rect key="frame" x="205" y="373" width="53" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="JF17/NUM_BLANK_PUSHED"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="lrf-m5-RQU"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="0dK-IY-lgD"/>
@@ -1595,8 +1596,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQo-zd-GOU" userLabel="BLANK_MODE1">
-                                        <rect key="frame" x="658" y="358" width="64" height="69"/>
+                                        <rect key="frame" x="668" y="368" width="53" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="JF17/BLANK_MODE_PUSHED"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="Vc0-At-w2X"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="gKW-3U-PrS"/>
@@ -1604,8 +1606,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEs-UX-t0u" userLabel="BLANK_MODE2">
-                                        <rect key="frame" x="736" y="359" width="58" height="68"/>
+                                        <rect key="frame" x="735" y="369" width="58" height="56"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="JF17/BLANK_MODE_PUSHED"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="TSp-7j-Cmk"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="EEz-2G-zSO"/>
@@ -2128,6 +2131,7 @@
         <image name="F18/fa18background" width="1136" height="895"/>
         <image name="JF17/AP_ON" width="72" height="74"/>
         <image name="JF17/AP_PUSHED" width="72" height="74"/>
+        <image name="JF17/BLANK_MODE_PUSHED" width="72" height="74"/>
         <image name="JF17/FPM_ON" width="72" height="71"/>
         <image name="JF17/FPM_PUSHED" width="72" height="71"/>
         <image name="JF17/HNS_ON" width="72" height="82"/>
@@ -2145,6 +2149,7 @@
         <image name="JF17/NUM7_PUSHED" width="75" height="70"/>
         <image name="JF17/NUM8_PUSHED" width="75" height="70"/>
         <image name="JF17/NUM9_PUSHED" width="75" height="69"/>
+        <image name="JF17/NUM_BLANK_PUSHED" width="75" height="69"/>
         <image name="JF17/OAP_ON" width="75" height="80"/>
         <image name="JF17/OAP_PUSHED" width="75" height="80"/>
         <image name="JF17/PU_ON" width="72" height="76"/>
