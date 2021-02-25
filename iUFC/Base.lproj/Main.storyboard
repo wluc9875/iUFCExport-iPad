@@ -1737,7 +1737,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctv-TY-09D" userLabel="FAST_SELECT_DEC">
-                                        <rect key="frame" x="358" y="620" width="146" height="69"/>
+                                        <rect key="frame" x="358" y="620" width="146" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="WKZ-Tc-0gZ"/>
