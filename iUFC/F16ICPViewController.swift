@@ -88,16 +88,11 @@ class F16ICPViewController: PlaneViewController {
             20: "f16/FLIR_DEC",
             21: "f16/DED_INC",
             22: "f16/DED_DEC",
-            23: "f16/DRIFT_CO",
             24: "f16/WARN_RESET",
             25: "f16/DCS_RTN",
             26: "f16/DCS_SEQ",
             27: "f16/DCS_INC",
             28: "f16/DCS_DEC",
-            29: "f16/FLIR_GAIN",
-            30: "",
-            31: "f16/FLIR_AUTO",
-            40: ""
         ]
         
         actionToViewDict = [
@@ -105,17 +100,33 @@ class F16ICPViewController: PlaneViewController {
             20: flirImageView,
             21: dedImageView,
             22: dedImageView,
-            23: driftImageView,
             24: driftImageView,
             25: dcsImageView,
             26: dcsImageView,
             27: dcsImageView,
             28: dcsImageView,
-            29: flirGainImageView,
-            30: flirGainImageView,
-            31: flirGainImageView,
-            40: driftImageView
         ]
+    }
+    
+    override func updateDisplays(with content: [String: String]) {
+        DispatchQueue.main.async {
+            switch content["flirgain"] {
+            case "1":
+                self.flirGainImageView.image = UIImage(named: "f16/FLIR_GAIN")
+            case "-1":
+                self.flirGainImageView.image = UIImage(named: "f16/FLIR_AUTO")
+            default:
+                self.flirGainImageView.image = nil
+            }
+            switch content["driftco"] {
+            case "1":
+                self.driftImageView.image = UIImage(named: "f16/DRIFT_CO")
+            case "0":
+                self.driftImageView.image = nil
+            default:
+                break
+            }
+        }
     }
 }
 
