@@ -81,18 +81,6 @@ class F18ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 25, commandId: 3040, argument: -1), // BRT Decrease (39)
             Action(type: .pushButton, deviceId: 25, commandId: 3040, argument: 1), // BRT Increase (40)
         ]
-        
-        alternateSwitchImages = [
-            32: "F18/ADF1",
-            33: "",
-            34: "F18/ADF2"
-        ]
-        
-        actionToViewDict = [
-            32: adfImageView,
-            33: adfImageView,
-            34: adfImageView
-        ]
     }
     
     override func updateDisplays(with content: [String: String]) {
@@ -133,6 +121,15 @@ class F18ViewController: PlaneViewController {
             self.scratchpadLabel.text = scratchpadText
             self.com1Label.text = comm1Text
             self.com2Label.text = comm2Text
+            
+            switch content["adf"] {
+            case "1":
+                self.adfImageView.image = UIImage(named: "F18/ADF1")
+            case "-1":
+                self.adfImageView.image = UIImage(named: "F18/ADF2")
+            default:
+                self.adfImageView.image = nil
+            }
         }
     }
 }
