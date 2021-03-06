@@ -127,11 +127,17 @@ class JF17ViewController: PlaneViewController {
         if content[JF17ViewController.CURSOR_KEYS[number]] != nil {
             if let range = text?.range(of: "-") {
                 text = text?.replacingCharacters(in: range, with: "█")
+            } else {
+                text?.removeLast()
+                text?.append("█")
             }
         }
         if content[JF17ViewController.CURSOR_RIGHT_KEYS[number]] != nil {
             if let range = text?.range(of: "-", options: .backwards) {
                 text = text?.replacingCharacters(in: range, with: "█")
+            } else {
+                text?.removeLast()
+                text?.append("█")
             }
         }
         return text
