@@ -1409,9 +1409,9 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2O-u8-MKh" userLabel="1">
-                                        <rect key="frame" x="38" y="70" width="66" height="60"/>
+                                        <rect key="frame" x="36" y="65" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM1_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM1-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="v6y-da-DzI"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="9XR-ZT-OvJ"/>
@@ -1419,9 +1419,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paR-4A-wSE" userLabel="2">
-                                        <rect key="frame" x="119" y="70" width="60" height="58"/>
+                                        <rect key="frame" x="113" y="65" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM2_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM2-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="qaP-Tu-KPQ"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="0AW-oG-3qo"/>
@@ -1429,9 +1429,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm9-yH-2F4" userLabel="3">
-                                        <rect key="frame" x="196" y="71" width="54" height="56"/>
+                                        <rect key="frame" x="189" y="66" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM3_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM3-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="fGp-Xo-80d"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="qi4-CN-tCY"/>
@@ -1439,9 +1439,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSM-ew-SX4" userLabel="4">
-                                        <rect key="frame" x="38" y="156" width="63" height="56"/>
+                                        <rect key="frame" x="36" y="149" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM4_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM4-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="SIk-RA-vKq"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="feq-Xe-jyH"/>
@@ -1449,9 +1449,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLb-Wg-OGj" userLabel="5">
-                                        <rect key="frame" x="119" y="158" width="56" height="54"/>
+                                        <rect key="frame" x="113" y="149" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM5_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM5-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="aSr-bs-6Rq"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="hQ8-JI-nzU"/>
@@ -1459,9 +1459,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cet-vF-FKR" userLabel="6">
-                                        <rect key="frame" x="196" y="158" width="54" height="51"/>
+                                        <rect key="frame" x="187" y="148" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM6_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM6-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="4Q5-79-J0G"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="59r-Vl-TL7"/>
@@ -1469,9 +1469,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNg-Iz-DQc" userLabel="7">
-                                        <rect key="frame" x="38" y="243" width="58" height="49"/>
+                                        <rect key="frame" x="36" y="234" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM7_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM7-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="zuP-MR-Tt5"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="JJy-nA-xYg"/>
@@ -1479,9 +1479,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YnU-Bl-cio" userLabel="8">
-                                        <rect key="frame" x="119" y="242" width="56" height="50"/>
+                                        <rect key="frame" x="112" y="232" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM8_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM8-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="XMe-Nd-nPJ"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="0Gr-im-WBm"/>
@@ -1489,9 +1489,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZy-2t-9p4" userLabel="9">
-                                        <rect key="frame" x="196" y="242" width="54" height="51"/>
+                                        <rect key="frame" x="187" y="232" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM9_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM9-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="Se0-5a-bOV"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="RcD-H0-kEo"/>
@@ -1499,9 +1499,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niZ-EQ-sni" userLabel="RTN">
-                                        <rect key="frame" x="38" y="324" width="58" height="53"/>
+                                        <rect key="frame" x="37" y="317" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/RTN"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-RTN-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="sag-xn-xuX"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="O45-yF-Aed"/>
@@ -1509,9 +1509,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49J-bD-nzK" userLabel="0">
-                                        <rect key="frame" x="114" y="324" width="57" height="53"/>
+                                        <rect key="frame" x="113" y="317" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM0_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUM0-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="2A7-c1-hrZ"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="PAO-Pr-qxa"/>
@@ -1519,9 +1519,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLS-Q1-jTY" userLabel="BLANK_NUM">
-                                        <rect key="frame" x="196" y="324" width="54" height="53"/>
+                                        <rect key="frame" x="187" y="317" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/NUM_BLANK_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-NUMBLANK-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="lrf-m5-RQU"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="0dK-IY-lgD"/>
@@ -1529,10 +1529,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmc-ge-OdY" userLabel="OAP">
-                                        <rect key="frame" x="707" y="72" width="56" height="48"/>
+                                        <rect key="frame" x="697" y="64" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/OAP_ON"/>
-                                        <state key="highlighted" image="JF17/OAP_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-OAP-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OAP-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="4EA-jz-mMZ"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="hrE-PV-RVN"/>
@@ -1540,10 +1540,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IL-tA-8Uf" userLabel="MRK">
-                                        <rect key="frame" x="781" y="74" width="56" height="53"/>
+                                        <rect key="frame" x="775" y="64" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/MRK_ON"/>
-                                        <state key="highlighted" image="JF17/MRK_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-MRK-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-MRK-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="arb-uK-aIu"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="E63-tr-1Rt"/>
@@ -1551,10 +1551,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40B-Iv-Sne" userLabel="PU">
-                                        <rect key="frame" x="707" y="156" width="51" height="50"/>
+                                        <rect key="frame" x="697" y="147" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/PU_ON"/>
-                                        <state key="highlighted" image="JF17/PU_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-PU-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-PU-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="skR-zL-XbI"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="7ud-w4-Sf8"/>
@@ -1562,10 +1562,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gz3-eX-k24" userLabel="HNS">
-                                        <rect key="frame" x="781" y="156" width="56" height="53"/>
+                                        <rect key="frame" x="771" y="147" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/HNS_ON"/>
-                                        <state key="highlighted" image="JF17/HNS_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-HNS-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-HNS-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="zOY-1H-XfC"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="Phy-Pa-Vvj"/>
@@ -1573,10 +1573,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwR-95-e8I" userLabel="AP">
-                                        <rect key="frame" x="701" y="239" width="58" height="53"/>
+                                        <rect key="frame" x="695" y="232" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/AP_ON"/>
-                                        <state key="highlighted" image="JF17/AP_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-AP-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-AP-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="E9z-LW-q6A"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="BzS-9e-c9s"/>
@@ -1584,10 +1584,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvc-KX-rd3" userLabel="FPM">
-                                        <rect key="frame" x="781" y="239" width="56" height="55"/>
+                                        <rect key="frame" x="771" y="232" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="selected" image="JF17/FPM_ON"/>
-                                        <state key="highlighted" image="JF17/FPM_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-FPM-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-FPM-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="N9e-m9-ueC"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="VjH-CM-aCg"/>
@@ -1595,9 +1595,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AQo-zd-GOU" userLabel="BLANK_MODE1">
-                                        <rect key="frame" x="701" y="323" width="57" height="54"/>
+                                        <rect key="frame" x="693" y="314" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/BLANK_MODE_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-MODEBLANK1-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-MODEBLANK1-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="Vc0-At-w2X"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="gKW-3U-PrS"/>
@@ -1605,9 +1606,10 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEs-UX-t0u" userLabel="BLANK_MODE2">
-                                        <rect key="frame" x="776" y="324" width="57" height="51"/>
+                                        <rect key="frame" x="768" y="314" width="72" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/BLANK_MODE_PUSHED"/>
+                                        <state key="selected" image="JF17/JF17-UFCP-MODEBLANK2-light"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-MODEBLANK2-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="TSp-7j-Cmk"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="EEz-2G-zSO"/>
@@ -1615,9 +1617,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rZ-Qe-uXG" userLabel="OSBL1">
-                                        <rect key="frame" x="276" y="82" width="56" height="36"/>
+                                        <rect key="frame" x="274" y="77" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/LEFT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBL1-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="7yk-rn-c0V"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="8hj-JS-Ats"/>
@@ -1625,9 +1627,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1c-Hn-Kwp" userLabel="OSBL2">
-                                        <rect key="frame" x="276" y="164" width="56" height="34"/>
+                                        <rect key="frame" x="271" y="157" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/LEFT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBL2-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="yiw-Uw-JjH"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="Bxe-5l-e7F"/>
@@ -1635,19 +1637,29 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WEf-gV-dSi" userLabel="OSBL3">
-                                        <rect key="frame" x="274" y="247" width="54" height="36"/>
+                                        <rect key="frame" x="269" y="243" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/LEFT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBL3-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="jqN-cL-SoZ"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="fs1-4P-p1n"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="g6Z-gd-Dkb"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmF-LB-z7x" userLabel="OSBR1">
-                                        <rect key="frame" x="627" y="83" width="55" height="29"/>
+                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfo-wK-msH" userLabel="OSBL4">
+                                        <rect key="frame" x="267" y="327" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/RIGHT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBL4-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="GTH-5D-UtN"/>
+                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="6Um-mo-sRW"/>
+                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="tVb-ju-aC1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tmF-LB-z7x" userLabel="OSBR1">
+                                        <rect key="frame" x="623" y="75" width="63" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBR1-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="gzD-SA-yo0"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="IpB-cA-rtS"/>
@@ -1655,9 +1667,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ka-LY-7Us" userLabel="OSBR2">
-                                        <rect key="frame" x="624" y="164" width="58" height="33"/>
+                                        <rect key="frame" x="622" y="158" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/RIGHT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBR2-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="5kG-Z0-MgI"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="0EM-xj-d36"/>
@@ -1665,9 +1677,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ol-zQ-o0K" userLabel="OSBR3">
-                                        <rect key="frame" x="624" y="247" width="56" height="34"/>
+                                        <rect key="frame" x="618" y="242" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/RIGHT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBR3-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="DS2-tN-rxW"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="ZIj-jm-rvt"/>
@@ -1675,9 +1687,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtT-8o-zvo" userLabel="OSBR4">
-                                        <rect key="frame" x="622" y="331" width="55" height="35"/>
+                                        <rect key="frame" x="618" y="325" width="63" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/RIGHT_OSB_PUSHED"/>
+                                        <state key="highlighted" image="JF17/JF17-UFCP-OSBR4-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="Rld-73-3f4"/>
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="PVu-QU-Qtx"/>
@@ -1712,19 +1724,6 @@
                                         <color key="textColor" systemColor="systemYellowColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="po2-7v-bEq" userLabel="Fast select Image view">
-                                        <rect key="frame" x="389.5" y="547.5" width="77" height="128"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewg-Sc-bQ2" userLabel="FAST_SELECT_INC">
-                                        <rect key="frame" x="358" y="534" width="146" height="69"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="QwV-Lh-rpG"/>
-                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="2K9-Pz-GIC"/>
-                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="FsM-Ba-Xdq"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctv-TY-09D" userLabel="FAST_SELECT_DEC">
                                         <rect key="frame" x="358" y="620" width="146" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1734,16 +1733,19 @@
                                             <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="Zwg-eP-gPJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfo-wK-msH" userLabel="OSBL4">
-                                        <rect key="frame" x="270" y="334" width="58" height="32"/>
+                                    <button opaque="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewg-Sc-bQ2" userLabel="FAST_SELECT_INC">
+                                        <rect key="frame" x="358" y="533" width="146" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="highlighted" image="JF17/LEFT_OSB_PUSHED"/>
                                         <connections>
-                                            <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="GTH-5D-UtN"/>
-                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="6Um-mo-sRW"/>
-                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="tVb-ju-aC1"/>
+                                            <action selector="buttonPushed:" destination="ctB-td-UhO" eventType="touchDown" id="QwV-Lh-rpG"/>
+                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpOutside" id="2K9-Pz-GIC"/>
+                                            <action selector="buttonReleased:" destination="ctB-td-UhO" eventType="touchUpInside" id="FsM-Ba-Xdq"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JF17/JF17-UFCP-fast-select-dec" translatesAutoresizingMaskIntoConstraints="NO" id="po2-7v-bEq" userLabel="Fast select Image view">
+                                        <rect key="frame" x="398" y="563" width="68" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -2128,34 +2130,44 @@
         <image name="F18/OSB_PUSHED" width="66" height="66"/>
         <image name="F18/TCN" width="86" height="96"/>
         <image name="F18/fa18background" width="1136" height="895"/>
-        <image name="JF17/AP_ON" width="72" height="74"/>
-        <image name="JF17/AP_PUSHED" width="72" height="74"/>
-        <image name="JF17/BLANK_MODE_PUSHED" width="72" height="74"/>
-        <image name="JF17/FPM_ON" width="72" height="71"/>
-        <image name="JF17/FPM_PUSHED" width="72" height="71"/>
-        <image name="JF17/HNS_ON" width="72" height="82"/>
-        <image name="JF17/HNS_PUSHED" width="72" height="82"/>
+        <image name="JF17/JF17-UFCP-AP-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-AP-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-FPM-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-FPM-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-HNS-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-HNS-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MODEBLANK1-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MODEBLANK1-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MODEBLANK2-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MODEBLANK2-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MRK-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-MRK-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM0-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM1-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM2-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM3-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM4-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM5-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM6-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM7-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM8-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUM9-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-NUMBLANK-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-OAP-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-OAP-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-OSBL1-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBL2-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBL3-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBL4-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBR1-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBR2-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBR3-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-OSBR4-pushed" width="126" height="90"/>
+        <image name="JF17/JF17-UFCP-PU-light" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-PU-pushed" width="144" height="134"/>
+        <image name="JF17/JF17-UFCP-RTN-pushed" width="144" height="134"/>
         <image name="JF17/JF17-UFCP-background" width="1794" height="1432"/>
-        <image name="JF17/LEFT_OSB_PUSHED" width="77" height="59"/>
-        <image name="JF17/MRK_ON" width="76" height="79"/>
-        <image name="JF17/MRK_PUSHED" width="76" height="79"/>
-        <image name="JF17/NUM0_PUSHED" width="72" height="69"/>
-        <image name="JF17/NUM1_PUSHED" width="75" height="75"/>
-        <image name="JF17/NUM2_PUSHED" width="73" height="72"/>
-        <image name="JF17/NUM3_PUSHED" width="78" height="76"/>
-        <image name="JF17/NUM4_PUSHED" width="85" height="75"/>
-        <image name="JF17/NUM5_PUSHED" width="76" height="73"/>
-        <image name="JF17/NUM6_PUSHED" width="76" height="69"/>
-        <image name="JF17/NUM7_PUSHED" width="75" height="70"/>
-        <image name="JF17/NUM8_PUSHED" width="75" height="70"/>
-        <image name="JF17/NUM9_PUSHED" width="75" height="69"/>
-        <image name="JF17/NUM_BLANK_PUSHED" width="75" height="69"/>
-        <image name="JF17/OAP_ON" width="75" height="80"/>
-        <image name="JF17/OAP_PUSHED" width="75" height="80"/>
-        <image name="JF17/PU_ON" width="72" height="76"/>
-        <image name="JF17/PU_PUSHED" width="72" height="76"/>
-        <image name="JF17/RIGHT_OSB_PUSHED" width="79" height="60"/>
-        <image name="JF17/RTN" width="74" height="65"/>
+        <image name="JF17/JF17-UFCP-fast-select-dec" width="136" height="178"/>
         <image name="SA342/NADIR_rotator" width="73" height="73"/>
         <image name="SA342/NADIR_rotator_002" width="45" height="44"/>
         <image name="SA342/Nadir_BG" width="559" height="600"/>

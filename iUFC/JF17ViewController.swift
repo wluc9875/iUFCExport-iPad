@@ -83,8 +83,8 @@ class JF17ViewController: PlaneViewController {
         ]
         
         alternateSwitchImages = [
-            28: "JF17/DED_INC",
-            29: "JF17/DED_DEC",
+            28: "JF17/JF17-UFCP-fast-select-inc",
+            29: "JF17/JF17-UFCP-fast-select-dec",
         ]
         
         actionToViewDict = [
