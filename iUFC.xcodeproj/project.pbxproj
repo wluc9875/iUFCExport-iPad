@@ -22,6 +22,7 @@
 		FD7C92E125A2220100FC3DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7C92DF25A2220100FC3DCB /* LaunchScreen.storyboard */; };
 		FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CD17525B244EC0013D55A /* SA342ViewController.swift */; };
 		FD7CD17925B2454B0013D55A /* JF17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CD17825B2454B0013D55A /* JF17ViewController.swift */; };
+		FD8240C726061A4A009CD3E3 /* A10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8240C626061A4A009CD3E3 /* A10ViewController.swift */; };
 		FD9CBC6C25A9EBC70078BB3B /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */; };
 		FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC6E25A9EC130078BB3B /* Action.swift */; };
 		FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */; };
@@ -45,6 +46,7 @@
 		FD7C92E225A2220100FC3DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7CD17525B244EC0013D55A /* SA342ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SA342ViewController.swift; sourceTree = "<group>"; };
 		FD7CD17825B2454B0013D55A /* JF17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JF17ViewController.swift; sourceTree = "<group>"; };
+		FD8240C626061A4A009CD3E3 /* A10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10ViewController.swift; sourceTree = "<group>"; };
 		FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
 		FD9CBC6E25A9EC130078BB3B /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AV8ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				FD7C92D625A2220000FC3DCB /* SceneDelegate.swift */,
 				FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */,
 				FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */,
+				FD8240C626061A4A009CD3E3 /* A10ViewController.swift */,
 				FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */,
 				FD7C92D825A2220000FC3DCB /* F16ICPViewController.swift */,
 				FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */,
@@ -186,6 +189,7 @@
 				FD6CA7AA25A9DC4800BBC394 /* PlaneViewController.swift in Sources */,
 				FD5AA67B25A7AB00006D98B1 /* F18ViewController.swift in Sources */,
 				FD7C92D925A2220000FC3DCB /* F16ICPViewController.swift in Sources */,
+				FD8240C726061A4A009CD3E3 /* A10ViewController.swift in Sources */,
 				FD2216F825AF8C5C00FCEC89 /* DCSConnectionDelegate.swift in Sources */,
 				FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */,
 				FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */,
@@ -344,14 +348,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -366,14 +370,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
