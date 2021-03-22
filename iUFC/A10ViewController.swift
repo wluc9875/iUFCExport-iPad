@@ -19,6 +19,13 @@
 import UIKit
 
 class A10ViewController: PlaneViewController {
+    @IBOutlet var steerImageView: UIImageView!
+    @IBOutlet var dataImageView: UIImageView!
+    @IBOutlet var selImageView: UIImageView!
+    @IBOutlet var deprImageView: UIImageView!
+    @IBOutlet var intenImageView: UIImageView!
+    @IBOutlet var warningLightImageView: UIImageView!
+    
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 8, commandId: 3010), // NUM0 (0)
@@ -56,6 +63,45 @@ class A10ViewController: PlaneViewController {
             Action(type: .momentary3Way, deviceId: 8, commandId: 3027, argument: -1.0), // DEPR Down (31)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3029), // INTEN Down (32)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3028, argument: -1.0), // INTEN Up (33)
+        ]
+        
+        originalSwitchImages = [
+            24: "",
+            25: "",
+            26: "",
+            27: "",
+            28: "",
+            29: "",
+            30: "",
+            31: "",
+            32: "",
+            33: "",
+        ]
+        
+        alternateSwitchImages = [
+            24: "a10/A10-UFC-steer-inc",
+            25: "a10/A10-UFC-steer-dec",
+            26: "a10/A10-UFC-data-inc",
+            27: "a10/A10-UFC-data-dec",
+            28: "a10/A10-UFC-sel-inc",
+            29: "a10/A10-UFC-sel-dec",
+            30: "a10/A10-UFC-depr-inc",
+            31: "a10/A10-UFC-depr-dec",
+            32: "a10/A10-UFC-inten-dec",
+            33: "a10/A10-UFC-inten-inc",
+        ]
+        
+        actionToViewDict = [
+            24: steerImageView,
+            25: steerImageView,
+            26: dataImageView,
+            27: dataImageView,
+            28: selImageView,
+            29: selImageView,
+            30: deprImageView,
+            31: deprImageView,
+            32: intenImageView,
+            33: intenImageView,
         ]
     }
 }
