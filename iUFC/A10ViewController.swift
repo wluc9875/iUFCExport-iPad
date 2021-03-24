@@ -24,7 +24,7 @@ class A10ViewController: PlaneViewController {
     @IBOutlet var selImageView: UIImageView!
     @IBOutlet var deprImageView: UIImageView!
     @IBOutlet var intenImageView: UIImageView!
-    @IBOutlet var warningLightImageView: UIImageView!
+    @IBOutlet var masterCautionButton: UIButton!
     
     override func initActions() {
         actions = [
@@ -63,6 +63,8 @@ class A10ViewController: PlaneViewController {
             Action(type: .momentary3Way, deviceId: 8, commandId: 3027, argument: -1.0), // DEPR Down (31)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3029), // INTEN Down (32)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3028, argument: -1.0), // INTEN Up (33)
+            
+            Action(type: .pushButton, deviceId: 24, commandId: 3001), // MASTER CAUTION reset (34)
         ]
         
         originalSwitchImages = [

@@ -2393,10 +2393,6 @@
                                             <action selector="buttonReleased:" destination="Ue8-0K-z8y" eventType="touchUpOutside" id="5cf-F2-o6T"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jdt-Yf-kSw" userLabel="WARNING">
-                                        <rect key="frame" x="595" y="20" width="117" height="58"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EtT-GF-43b" userLabel="STEER">
                                         <rect key="frame" x="16" y="68" width="55" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2429,6 +2425,17 @@
                                             <action selector="buttonReleased:" destination="Ue8-0K-z8y" eventType="touchUpOutside" id="VdJ-Ay-LU5"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRh-Ou-f5L" userLabel="CAUTION">
+                                        <rect key="frame" x="586" y="12" width="132" height="68"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="a10/A10-UFC-WARNING-light"/>
+                                        <state key="highlighted" image="a10/A10-UFC-WARNING-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="Ue8-0K-z8y" eventType="touchDown" id="rzf-iF-3Tj"/>
+                                            <action selector="buttonReleased:" destination="Ue8-0K-z8y" eventType="touchUpInside" id="9HB-Ss-Rwc"/>
+                                            <action selector="buttonReleased:" destination="Ue8-0K-z8y" eventType="touchUpOutside" id="YnJ-KI-c3E"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -2448,9 +2455,9 @@
                         <outlet property="dataImageView" destination="8i1-a3-3Z6" id="4oB-EY-QmA"/>
                         <outlet property="deprImageView" destination="W3f-BA-25L" id="pu2-46-yHH"/>
                         <outlet property="intenImageView" destination="gUR-7v-Brs" id="dQC-kQ-StF"/>
+                        <outlet property="masterCautionButton" destination="YRh-Ou-f5L" id="L5C-dx-leb"/>
                         <outlet property="selImageView" destination="oCt-Ku-Gh2" id="uig-EF-3iZ"/>
                         <outlet property="steerImageView" destination="EtT-GF-43b" id="Nfb-xd-Yt3"/>
-                        <outlet property="warningLightImageView" destination="Jdt-Yf-kSw" id="X4A-bp-coq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vu3-D8-N9z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2656,6 +2663,8 @@
         <image name="a10/A10-UFC-NUM8-pushed" width="100" height="100"/>
         <image name="a10/A10-UFC-NUM9-pushed" width="100" height="100"/>
         <image name="a10/A10-UFC-SPC-pushed" width="100" height="100"/>
+        <image name="a10/A10-UFC-WARNING-light" width="233" height="120"/>
+        <image name="a10/A10-UFC-WARNING-pushed" width="233" height="120"/>
         <image name="a10/A10-UFC-background" width="1795" height="407"/>
         <image name="f16/AA_PUSHED" width="108" height="108"/>
         <image name="f16/AG_PUSHED" width="108" height="108"/>
