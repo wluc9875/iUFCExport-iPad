@@ -106,4 +106,12 @@ class A10ViewController: PlaneViewController {
             33: intenImageView,
         ]
     }
+    
+    override func updateDisplays(with content: [String: String]) {
+        let caution = content["caution"] ?? ""
+        
+        DispatchQueue.main.async {
+            self.masterCautionButton.isSelected = (caution == "1")
+        }
+    }
 }

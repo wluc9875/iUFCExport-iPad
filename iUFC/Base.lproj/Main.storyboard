@@ -2425,7 +2425,7 @@
                                             <action selector="buttonReleased:" destination="Ue8-0K-z8y" eventType="touchUpOutside" id="VdJ-Ay-LU5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRh-Ou-f5L" userLabel="CAUTION">
+                                    <button opaque="NO" tag="34" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YRh-Ou-f5L" userLabel="CAUTION">
                                         <rect key="frame" x="586" y="12" width="132" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="selected" image="a10/A10-UFC-WARNING-light"/>
