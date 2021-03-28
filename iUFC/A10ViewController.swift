@@ -61,8 +61,8 @@ class A10ViewController: PlaneViewController {
             Action(type: .momentary3Way, deviceId: 8, commandId: 3025, argument: -1.0), // SEL Down (29)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3026), // DEPR Up (30)
             Action(type: .momentary3Way, deviceId: 8, commandId: 3027, argument: -1.0), // DEPR Down (31)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3029), // INTEN up (32)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3028)	, // INTEN down (33)
+            Action(type: .momentary3Way, deviceId: 8, commandId: 3029, argument: -1.0), // INTEN down (32)
+            Action(type: .momentary3Way, deviceId: 8, commandId: 3028),	// INTEN up (33)
             
             Action(type: .pushButton, deviceId: 24, commandId: 3001), // MASTER CAUTION reset (34)
         ]
