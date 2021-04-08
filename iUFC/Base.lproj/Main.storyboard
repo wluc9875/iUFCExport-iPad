@@ -466,6 +466,41 @@
             </objects>
             <point key="canvasLocation" x="743" y="838"/>
         </scene>
+        <!--AJS37 View Controller-->
+        <scene sceneID="lih-ev-9Ye">
+            <objects>
+                <viewController storyboardIdentifier="AJS37" id="x6i-Ca-IbT" userLabel="AJS37 View Controller" customClass="AJS37ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="77X-I2-sJ6">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sRe-yN-ydw">
+                                <rect key="frame" x="62.5" y="77.5" width="899" height="613"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AJS37/AJS37-NAV-background" translatesAutoresizingMaskIntoConstraints="NO" id="IdG-Xe-biG">
+                                        <rect key="frame" x="0.0" y="2" width="899" height="613"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="613" id="S25-6v-8pJ"/>
+                                    <constraint firstAttribute="width" constant="899" id="khC-sl-pFN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VIf-uO-PVZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sRe-yN-ydw" firstAttribute="centerY" secondItem="VIf-uO-PVZ" secondAttribute="centerY" id="LzU-n2-Wl0"/>
+                            <constraint firstItem="sRe-yN-ydw" firstAttribute="centerX" secondItem="VIf-uO-PVZ" secondAttribute="centerX" id="dK2-cN-Kwz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sda-mP-j0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="792" y="3625"/>
+        </scene>
         <!--F18 View Controller-->
         <scene sceneID="j1Q-6v-uHA">
             <objects>
@@ -2058,7 +2093,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n1O-AY-QpX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7381.6406249999991" y="75"/>
+            <point key="canvasLocation" x="7205" y="65"/>
         </scene>
         <!--A10 View Controller-->
         <scene sceneID="fgn-4Q-gbs">
@@ -2462,7 +2497,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vu3-D8-N9z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8847.65625" y="47.65625"/>
+            <point key="canvasLocation" x="8914" y="56"/>
         </scene>
         <!--Home Table View Controller-->
         <scene sceneID="VhE-sU-ter">
@@ -2541,6 +2576,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AJS37/AJS37-NAV-background" width="1798" height="1226"/>
         <image name="AV8/AV8-ODU-L1-pushed" width="164" height="158"/>
         <image name="AV8/AV8-ODU-L2-pushed" width="164" height="158"/>
         <image name="AV8/AV8-ODU-R1-pushed" width="150" height="150"/>
