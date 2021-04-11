@@ -481,6 +481,258 @@
                                         <rect key="frame" x="0.0" y="2" width="899" height="613"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LoD-Px-3iS" userLabel="B5">
+                                        <rect key="frame" x="597" y="8" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B5-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="01E-s2-ugi"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="EqK-k0-5pA"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="ZpR-l4-LJa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AjW-Bm-qbA" userLabel="B6">
+                                        <rect key="frame" x="785" y="11" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B6-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="c75-b9-8sK"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="C9W-Bz-xwt"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="rkp-3m-hG0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5Z-Hu-2yk" userLabel="B4">
+                                        <rect key="frame" x="595" y="107" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B4-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="mIH-y7-v00"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="FO0-2H-e8x"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="M1k-ip-Y9U"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlL-T6-Oe4" userLabel="B3">
+                                        <rect key="frame" x="591" y="209" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B3-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Hdr-ty-Fyb"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="gaF-AU-OEO"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="hKo-fi-jh8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IV1-Bb-js7" userLabel="B8">
+                                        <rect key="frame" x="784" y="211" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B8-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="pbU-sh-3ER"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="QPT-fZ-WCc"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="hia-PU-hiE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMt-hc-nJC" userLabel="B9">
+                                        <rect key="frame" x="784" y="313" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B9-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="JCj-rY-cCM"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="bDN-k3-jWo"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="vX4-hA-9ZS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvb-Wr-5G1" userLabel="B2">
+                                        <rect key="frame" x="590" y="310" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B2-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="8f7-SJ-4qY"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="Mgt-1y-UPC"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="b6Z-yW-zlr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTr-Ed-WpC" userLabel="B1">
+                                        <rect key="frame" x="587" y="416" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B1-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="WwQ-t0-s7t"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="RZk-IX-k8p"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="Tay-Oz-wy0"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qax-xm-REz" userLabel="BX">
+                                        <rect key="frame" x="783" y="417" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-BX-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="2i3-6K-XqR"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="H52-Ds-BcX"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="qGE-2h-isw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgU-8a-yjr" userLabel="LMAL">
+                                        <rect key="frame" x="783" y="519" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-LMAL-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="zGd-Xm-V0O"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="64Q-2o-30t"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="NO7-VO-4ZG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUG-Jz-KVz" userLabel="LSSKU">
+                                        <rect key="frame" x="585" y="518" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-LSSKU-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="E5L-hh-ksE"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="0fJ-J3-9iK"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="HBL-Qe-952"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHz-hp-OMU" userLabel="B7">
+                                        <rect key="frame" x="785.5" y="114.5" width="88" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-waypoints-B7-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="etO-Y5-MhL"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="raK-9m-hsA"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="y7O-ub-EEN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jW8-QH-1c8" userLabel="NUM7">
+                                        <rect key="frame" x="230" y="240" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM7-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="in8-Qs-7g1"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="ojk-8d-M7c"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="zDn-bg-lvB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HR6-KD-Wyo" userLabel="NUM8">
+                                        <rect key="frame" x="312" y="238" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM8-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="CpV-0W-fOT"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="LwG-OD-Ijs"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="e8H-fu-1jS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwO-RX-giB" userLabel="NUM6">
+                                        <rect key="frame" x="397" y="307" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM6-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="1id-Qh-M1H"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="0hw-R0-Or4"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="IEs-T4-aHW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V05-QJ-VkP" userLabel="NUM5">
+                                        <rect key="frame" x="315" y="309" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM5-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Dze-Nw-lnB"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="dME-to-YPz"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="hMC-OJ-hMh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYX-6a-oQG" userLabel="NUM4">
+                                        <rect key="frame" x="232" y="313" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM4-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Qfp-mH-62Z"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="UY2-Cz-kVv"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="g8B-dA-S8T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIg-ab-QH9" userLabel="NUM1">
+                                        <rect key="frame" x="232" y="388" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM1-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="aei-gh-AHS"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="E0L-Iz-Gtt"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="mEG-vr-q5x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8j-Ga-wzF" userLabel="NUM2">
+                                        <rect key="frame" x="316" y="383" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM2-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="kOp-F0-g6Z"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="N01-ZZ-1nm"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="Ng8-qv-PDj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npg-2d-LYr" userLabel="NUM9">
+                                        <rect key="frame" x="393" y="238" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM9-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Ul0-sI-8jb"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="Pwn-jB-Izz"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="Xxg-tn-zT7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOv-Eu-li9" userLabel="NUM3">
+                                        <rect key="frame" x="400" y="381" width="75" height="74"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM3-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="cDy-r3-apa"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="OOx-BM-K4A"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="gAq-BW-hp5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ge3-SP-NCd" userLabel="UT">
+                                        <rect key="frame" x="362" y="173" width="66" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="npF-pU-oFH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRH-tf-r2T" userLabel="NUM0">
+                                        <rect key="frame" x="34" y="468" width="143" height="133"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="highlighted" image="AJS37/AJS37-CK37-NUM0-pushed"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="8x6-Zl-ZSN"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="S1H-Ma-AMA"/>
+                                            <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="aWD-E1-0X2"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfM-a1-VVt" userLabel="data selector Image View">
+                                        <rect key="frame" x="35" y="240" width="191" height="172"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teV-3O-Fo1" userLabel="data selector CCW">
+                                        <rect key="frame" x="5" y="204" width="105" height="218"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="DXH-OG-1Wf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3E-Jj-r0C" userLabel="data selector CW">
+                                        <rect key="frame" x="137" y="209" width="90" height="218"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Hw6-Jf-hGB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBp-U4-8Ci" userLabel="IN">
+                                        <rect key="frame" x="274" y="171" width="64" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Fbv-LC-Ynf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -499,7 +751,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sda-mP-j0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="792" y="3625"/>
+            <point key="canvasLocation" x="791.6015625" y="3625"/>
         </scene>
         <!--F18 View Controller-->
         <scene sceneID="j1Q-6v-uHA">
@@ -2576,7 +2828,29 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AJS37/AJS37-CK37-NUM0-pushed" width="286" height="266"/>
+        <image name="AJS37/AJS37-CK37-NUM1-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM2-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM3-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM4-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM5-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM6-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM7-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM8-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CK37-NUM9-pushed" width="150" height="148"/>
         <image name="AJS37/AJS37-NAV-background" width="1798" height="1226"/>
+        <image name="AJS37/AJS37-waypoints-B1-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B2-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B3-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B4-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B5-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B6-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B7-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B8-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-B9-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-BX-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-LMAL-pushed" width="176" height="176"/>
+        <image name="AJS37/AJS37-waypoints-LSSKU-pushed" width="176" height="176"/>
         <image name="AV8/AV8-ODU-L1-pushed" width="164" height="158"/>
         <image name="AV8/AV8-ODU-L2-pushed" width="164" height="158"/>
         <image name="AV8/AV8-ODU-R1-pushed" width="150" height="150"/>
