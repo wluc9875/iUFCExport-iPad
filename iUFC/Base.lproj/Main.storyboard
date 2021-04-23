@@ -541,7 +541,7 @@
                                             <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="vX4-hA-9ZS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvb-Wr-5G1" userLabel="B2">
+                                    <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvb-Wr-5G1" userLabel="B2">
                                         <rect key="frame" x="590" y="310" width="88" height="88"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="AJS37/AJS37-waypoints-B2-pushed"/>
@@ -551,7 +551,7 @@
                                             <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="b6Z-yW-zlr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTr-Ed-WpC" userLabel="B1">
+                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTr-Ed-WpC" userLabel="B1">
                                         <rect key="frame" x="587" y="416" width="88" height="88"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="AJS37/AJS37-waypoints-B1-pushed"/>
@@ -691,21 +691,32 @@
                                             <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="gAq-BW-hp5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ge3-SP-NCd" userLabel="UT">
-                                        <rect key="frame" x="362" y="173" width="66" height="62"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="npF-pU-oFH"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRH-tf-r2T" userLabel="NUM0">
-                                        <rect key="frame" x="34" y="468" width="143" height="133"/>
+                                        <rect key="frame" x="33.5" y="467.5" width="143" height="133"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="AJS37/AJS37-CK37-NUM0-pushed"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="8x6-Zl-ZSN"/>
                                             <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpInside" id="S1H-Ma-AMA"/>
                                             <action selector="buttonReleased:" destination="x6i-Ca-IbT" eventType="touchUpOutside" id="aWD-E1-0X2"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="AJS37/AJS37-CK37-INUT-switch-IN" translatesAutoresizingMaskIntoConstraints="NO" id="XxD-68-bOx" userLabel="inutImageView">
+                                        <rect key="frame" x="276" y="193" width="167" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBp-U4-8Ci" userLabel="IN">
+                                        <rect key="frame" x="273.5" y="170.5" width="64" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Fbv-LC-Ynf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ge3-SP-NCd" userLabel="UT">
+                                        <rect key="frame" x="362" y="173" width="66" height="62"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="npF-pU-oFH"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfM-a1-VVt" userLabel="data selector Image View">
@@ -726,13 +737,48 @@
                                             <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Hw6-Jf-hGB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBp-U4-8Ci" userLabel="IN">
-                                        <rect key="frame" x="274" y="171" width="64" height="64"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bar-Sv-akE" userLabel="dataLabel1">
+                                        <rect key="frame" x="90" y="54" width="40" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="buttonPushed:" destination="x6i-Ca-IbT" eventType="touchDown" id="Fbv-LC-Ynf"/>
-                                        </connections>
-                                    </button>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLo-Lv-Rc0" userLabel="dataLabel2">
+                                        <rect key="frame" x="144" y="54" width="40" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SuE-Vt-0mf" userLabel="dataLabel3">
+                                        <rect key="frame" x="199" y="54" width="40" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAi-VL-VzW" userLabel="dataLabel4">
+                                        <rect key="frame" x="250" y="52" width="40" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kb-iX-Re5" userLabel="dataLabel5">
+                                        <rect key="frame" x="301" y="52" width="40" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hu0-IJ-bXP" userLabel="dataLabel6">
+                                        <rect key="frame" x="355" y="52" width="40" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="46"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -748,6 +794,16 @@
                             <constraint firstItem="sRe-yN-ydw" firstAttribute="centerX" secondItem="VIf-uO-PVZ" secondAttribute="centerX" id="dK2-cN-Kwz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dataLabel1" destination="bar-Sv-akE" id="yMq-xa-NXi"/>
+                        <outlet property="dataLabel2" destination="VLo-Lv-Rc0" id="fYn-17-M48"/>
+                        <outlet property="dataLabel3" destination="SuE-Vt-0mf" id="iSl-Ne-E9d"/>
+                        <outlet property="dataLabel4" destination="dAi-VL-VzW" id="BVv-Th-imt"/>
+                        <outlet property="dataLabel5" destination="6kb-iX-Re5" id="Nw4-t7-8fu"/>
+                        <outlet property="dataLabel6" destination="hu0-IJ-bXP" id="L4u-Rb-XIs"/>
+                        <outlet property="dataSelectorImageView" destination="WfM-a1-VVt" id="Flo-gh-Vw9"/>
+                        <outlet property="inutImageView" destination="XxD-68-bOx" id="ajB-VC-EaF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sda-mP-j0H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2828,6 +2884,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="AJS37/AJS37-CK37-INUT-switch-IN" width="186" height="84"/>
         <image name="AJS37/AJS37-CK37-NUM0-pushed" width="286" height="266"/>
         <image name="AJS37/AJS37-CK37-NUM1-pushed" width="150" height="148"/>
         <image name="AJS37/AJS37-CK37-NUM2-pushed" width="150" height="148"/>
