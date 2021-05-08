@@ -26,6 +26,7 @@ class HomeViewController: UITableViewController {
         "F-16C",
         "FA-18C",
         "JF17",
+        "KA50"
         //"SA342" // postponed to a later version
     ]
     
