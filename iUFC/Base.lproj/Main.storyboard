@@ -914,135 +914,150 @@
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="VkR-7L-w8g"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9A-9Y-T83" userLabel="ENTER">
-                                        <rect key="frame" x="150.5" y="456.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9A-9Y-T83" userLabel="ENTER">
+                                        <rect key="frame" x="149" y="452" width="90" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-yellow-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="zx9-yy-zd9"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="0sE-CS-QU8"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="COG-GW-nVX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wev-mi-LOc" userLabel="CLEAR">
-                                        <rect key="frame" x="343.5" y="454.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wev-mi-LOc" userLabel="CLEAR">
+                                        <rect key="frame" x="339" y="453" width="92" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-yellow-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="W9I-t9-j6k"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="6MF-M7-eMf"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="N4d-vP-e8H"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaX-lT-CXw" userLabel="WPT">
-                                        <rect key="frame" x="50.5" y="222.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaX-lT-CXw" userLabel="WPT">
+                                        <rect key="frame" x="44" y="214" width="93" height="78"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="88q-9T-yq3"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="Ak6-5e-NSa"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="aLJ-j4-xfJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xac-GM-LxT" userLabel="FIX_PNT">
-                                        <rect key="frame" x="51.5" y="301.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xac-GM-LxT" userLabel="FIX_PNT">
+                                        <rect key="frame" x="51" y="295" width="88" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="08x-4D-rUh"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="RUy-Xy-oc6"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="cd8-U5-QVE"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4P6-Uo-esc" userLabel="AIRFIELD">
-                                        <rect key="frame" x="53.5" y="379.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4P6-Uo-esc" userLabel="AIRFIELD">
+                                        <rect key="frame" x="53" y="374" width="91" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="xGN-Qz-ktU"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="CJW-AZ-gmC"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="qnk-c4-h2k"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwz-Aa-ucZ" userLabel="NAV_TGT">
-                                        <rect key="frame" x="53.5" y="453.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwz-Aa-ucZ" userLabel="NAV_TGT">
+                                        <rect key="frame" x="53" y="452" width="90" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="xKZ-4h-s3F"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="MQI-Hk-NJ7"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="XK4-0P-2CT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-h0-Qjh" userLabel="INU_RESET">
-                                        <rect key="frame" x="438.5" y="225.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GZ-h0-Qjh" userLabel="INU_RESET">
+                                        <rect key="frame" x="432" y="221" width="95" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="D42-ag-Ft4"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="oaR-Jd-Iib"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="w5w-4h-e4D"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abt-Ez-Noh" userLabel="INU_PREC">
-                                        <rect key="frame" x="439.5" y="304.5" width="83" height="60"/>
+                                    <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abt-Ez-Noh" userLabel="INU_PREC">
+                                        <rect key="frame" x="433" y="298" width="90" height="78"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="n3l-cB-zFQ"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="CP0-fj-cbK"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="bLE-gP-2Gn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xU-71-3ZS" userLabel="INU_NORM">
-                                        <rect key="frame" x="442" y="383" width="83" height="60"/>
+                                    <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xU-71-3ZS" userLabel="INU_NORM">
+                                        <rect key="frame" x="435" y="377" width="89" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="RLb-aq-3AV"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="dQE-Zx-iaG"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="kMR-kt-ncV"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pv0-LP-I5I" userLabel="INIT_PNT">
-                                        <rect key="frame" x="442" y="457" width="83" height="60"/>
+                                    <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pv0-LP-I5I" userLabel="INIT_PNT">
+                                        <rect key="frame" x="435" y="454" width="90" height="73"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="XTD-vw-7YM"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="Qap-AO-eL3"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="wkk-Bx-QRA"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAz-wc-eQJ" userLabel="SELF_COOR">
-                                        <rect key="frame" x="57" y="529" width="83" height="60"/>
+                                    <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lAz-wc-eQJ" userLabel="SELF_COOR">
+                                        <rect key="frame" x="58" y="527" width="87" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="rUM-TK-CIm"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="KtD-iL-slt"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="X7B-bE-bl4"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZi-sd-ADh" userLabel="DATA_DH">
-                                        <rect key="frame" x="154" y="532" width="83" height="60"/>
+                                    <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZi-sd-ADh" userLabel="DATA_DH">
+                                        <rect key="frame" x="156" y="530" width="88" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="w81-IU-qm4"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="4J0-pt-TvI"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="MPt-U5-RFd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbn-tK-m8U" userLabel="WIND_DISP">
-                                        <rect key="frame" x="249" y="531" width="83" height="60"/>
+                                    <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbn-tK-m8U" userLabel="WIND_DISP">
+                                        <rect key="frame" x="248" y="529" width="85" height="70"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="hci-or-LFa"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="Wa9-hf-y52"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="ltF-UN-5Ba"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2X-iX-Iaw" userLabel="THEAD_TIMEDIS">
-                                        <rect key="frame" x="347" y="530" width="83" height="60"/>
+                                    <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2X-iX-Iaw" userLabel="THEAD_TIMEDIS">
+                                        <rect key="frame" x="343" y="530" width="85" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="J8V-8Y-Vnb"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="8qY-rE-IjS"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpOutside" id="QvB-9a-7TG"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRN-LZ-fUb" userLabel="BRGRA_TGTPNT">
-                                        <rect key="frame" x="445" y="532" width="83" height="60"/>
+                                    <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRN-LZ-fUb" userLabel="BRGRA_TGTPNT">
+                                        <rect key="frame" x="433" y="529" width="90" height="75"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="ka50/KA50-white-light"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="0Sv-nf-ykE"/>
                                             <action selector="buttonReleased:" destination="TdH-Vt-Z25" eventType="touchUpInside" id="Pwe-f9-GKt"/>
@@ -1091,6 +1106,46 @@
                                             <action selector="buttonPushed:" destination="TdH-Vt-Z25" eventType="touchDown" id="luv-xD-SOx"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smu-nt-7dH" userLabel="line1">
+                                        <rect key="frame" x="63" y="38" width="332" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="60"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqz-Jf-8PY" userLabel="line2">
+                                        <rect key="frame" x="68" y="115" width="329" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="60"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfs-8X-tJE" userLabel="point1">
+                                        <rect key="frame" x="434" y="35" width="38" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="60"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crw-0j-gaA" userLabel="point2">
+                                        <rect key="frame" x="434" y="118" width="37" height="57"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="60"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qm1-SR-PPW" userLabel="rotator">
+                                        <rect key="frame" x="52" y="602" width="177" height="169"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="ka50/KA50-PVI-dl-up" translatesAutoresizingMaskIntoConstraints="NO" id="9iz-Da-tY4" userLabel="DL">
+                                        <rect key="frame" x="352" y="658" width="60" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" highlightedImage="ka50/KA50-PVI-operation-mode-up" translatesAutoresizingMaskIntoConstraints="NO" id="KPv-ag-PhJ" userLabel="MODE">
+                                        <rect key="frame" x="253" y="658" width="85" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1106,6 +1161,30 @@
                             <constraint firstItem="Hky-7Y-8pn" firstAttribute="centerY" secondItem="moL-zM-kXm" secondAttribute="centerY" id="zzU-zz-mxO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="airfieldButton" destination="4P6-Uo-esc" id="1l6-PE-OiE"/>
+                        <outlet property="bearingButton" destination="jRN-LZ-fUb" id="NBz-Fi-dAl"/>
+                        <outlet property="clearButton" destination="wev-mi-LOc" id="ugf-pD-ef5"/>
+                        <outlet property="dataDHButton" destination="QZi-sd-ADh" id="Xjz-G6-vdG"/>
+                        <outlet property="dataLinkImageView" destination="9iz-Da-tY4" id="eBo-e7-4za"/>
+                        <outlet property="enterButton" destination="G9A-9Y-T83" id="Lw4-y5-Fvf"/>
+                        <outlet property="fixButton" destination="Xac-GM-LxT" id="RI7-bw-0R2"/>
+                        <outlet property="initialPointButton" destination="Pv0-LP-I5I" id="e0g-nw-jQl"/>
+                        <outlet property="inuResetButton" destination="9GZ-h0-Qjh" id="7Gs-nr-Eii"/>
+                        <outlet property="line1Label" destination="smu-nt-7dH" id="aIf-aB-gcJ"/>
+                        <outlet property="line2Label" destination="wqz-Jf-8PY" id="Q7h-Io-skj"/>
+                        <outlet property="modeImageView" destination="KPv-ag-PhJ" id="faa-4Z-9t4"/>
+                        <outlet property="normalINUButton" destination="6xU-71-3ZS" id="klh-er-jqQ"/>
+                        <outlet property="point1Label" destination="pfs-8X-tJE" id="JEI-CB-0eb"/>
+                        <outlet property="point2Label" destination="crw-0j-gaA" id="VhI-Qw-Xcq"/>
+                        <outlet property="preciseINUButton" destination="abt-Ez-Noh" id="YAq-aL-Vtc"/>
+                        <outlet property="rotatorImageView" destination="Qm1-SR-PPW" id="P0g-Gx-H2p"/>
+                        <outlet property="selfCoordButton" destination="lAz-wc-eQJ" id="Gfz-9c-Pzc"/>
+                        <outlet property="targetButton" destination="nwz-Aa-ucZ" id="iSk-fb-8dH"/>
+                        <outlet property="theadButton" destination="l2X-iX-Iaw" id="W0C-X3-gye"/>
+                        <outlet property="waypointButton" destination="EaX-lT-CXw" id="W4e-mg-5mt"/>
+                        <outlet property="windButton" destination="xbn-tK-m8U" id="izA-Zy-hMp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdw-Ai-PQL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1119,19 +1198,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="If0-r0-oZ2">
-                                <rect key="frame" x="31.5" y="-1" width="961" height="770"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="If0-r0-oZ2">
+                                <rect key="frame" x="31.5" y="0.0" width="961" height="770"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F18/fa18background" translatesAutoresizingMaskIntoConstraints="NO" id="cSa-Rz-p13">
-                                        <rect key="frame" x="-0.5" y="0.0" width="961" height="770"/>
+                                        <rect key="frame" x="-0.5" y="-20" width="961" height="770"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhz-R3-1ct" userLabel="ADF Image">
-                                        <rect key="frame" x="1" y="196" width="121" height="104"/>
+                                        <rect key="frame" x="1" y="176" width="121" height="104"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6y7-x0-MKD" userLabel="1">
-                                        <rect key="frame" x="163" y="199" width="72" height="74"/>
+                                        <rect key="frame" x="163" y="179" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM1_PUSHED"/>
                                         <connections>
@@ -1141,7 +1220,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGV-Mw-Abj" userLabel="2">
-                                        <rect key="frame" x="264" y="201" width="72" height="74"/>
+                                        <rect key="frame" x="264" y="181" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM2_PUSHED"/>
                                         <connections>
@@ -1151,7 +1230,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFm-Ix-SeH" userLabel="3">
-                                        <rect key="frame" x="368" y="199" width="72" height="74"/>
+                                        <rect key="frame" x="368" y="179" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM3_PUSHED"/>
                                         <connections>
@@ -1161,7 +1240,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bd1-sO-GWi" userLabel="4">
-                                        <rect key="frame" x="167" y="302" width="72" height="74"/>
+                                        <rect key="frame" x="167" y="282" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM4_PUSHED"/>
                                         <connections>
@@ -1171,7 +1250,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G5H-vq-2m0" userLabel="5">
-                                        <rect key="frame" x="265" y="302" width="72" height="74"/>
+                                        <rect key="frame" x="265" y="282" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM5_PUSHED"/>
                                         <connections>
@@ -1181,7 +1260,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcY-4s-hHK" userLabel="6">
-                                        <rect key="frame" x="368" y="302" width="72" height="74"/>
+                                        <rect key="frame" x="368" y="282" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM6_PUSHED"/>
                                         <connections>
@@ -1191,7 +1270,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngz-ze-OaA" userLabel="7">
-                                        <rect key="frame" x="166" y="404" width="72" height="74"/>
+                                        <rect key="frame" x="166" y="384" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM7_PUSHED"/>
                                         <connections>
@@ -1201,7 +1280,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPz-gy-O1r" userLabel="8">
-                                        <rect key="frame" x="265" y="402" width="72" height="74"/>
+                                        <rect key="frame" x="265" y="382" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM8_PUSHED"/>
                                         <connections>
@@ -1211,7 +1290,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNl-iZ-52x" userLabel="9">
-                                        <rect key="frame" x="368" y="404" width="72" height="74"/>
+                                        <rect key="frame" x="368" y="384" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM9_PUSHED"/>
                                         <connections>
@@ -1221,7 +1300,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXt-do-xmh" userLabel="CLR">
-                                        <rect key="frame" x="165" y="504" width="72" height="74"/>
+                                        <rect key="frame" x="165" y="484" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/CLR"/>
                                         <connections>
@@ -1231,7 +1310,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2t-wG-zi2" userLabel="0">
-                                        <rect key="frame" x="267" y="503" width="72" height="74"/>
+                                        <rect key="frame" x="267" y="483" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/NUM0_PUSHED"/>
                                         <connections>
@@ -1241,7 +1320,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9G-jY-ixd" userLabel="ENT">
-                                        <rect key="frame" x="368" y="504" width="72" height="74"/>
+                                        <rect key="frame" x="368" y="484" width="72" height="74"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/ENT"/>
                                         <connections>
@@ -1251,7 +1330,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0Y-av-4Pg" userLabel="AP">
-                                        <rect key="frame" x="177" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="177" y="651" width="64" height="61"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/AP"/>
                                         <connections>
@@ -1261,7 +1340,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0j-cv-0NU" userLabel="IFF">
-                                        <rect key="frame" x="261" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="261" y="642" width="64" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/IFF"/>
                                         <connections>
@@ -1271,7 +1350,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bth-mE-Txh" userLabel="TCN">
-                                        <rect key="frame" x="357" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="357" y="644" width="64" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/TCN"/>
                                         <connections>
@@ -1281,7 +1360,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SU-Wp-gX3" userLabel="ILS">
-                                        <rect key="frame" x="450" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="450" y="647" width="64" height="66"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/ILS"/>
                                         <connections>
@@ -1291,7 +1370,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AR6-Tb-gHv" userLabel="DL">
-                                        <rect key="frame" x="546" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="546" y="639" width="64" height="71"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/DL"/>
                                         <connections>
@@ -1301,7 +1380,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IqK-YS-na0" userLabel="BCN">
-                                        <rect key="frame" x="641" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="641" y="640" width="64" height="69"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/BCN"/>
                                         <connections>
@@ -1311,7 +1390,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E7T-IP-f2R" userLabel="ONOFF">
-                                        <rect key="frame" x="736" y="663" width="64" height="67"/>
+                                        <rect key="frame" x="736" y="640" width="64" height="72"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/ONOFF"/>
                                         <connections>
@@ -1321,7 +1400,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9zf-n8-EzS" userLabel="IP">
-                                        <rect key="frame" x="41" y="108" width="54" height="54"/>
+                                        <rect key="frame" x="41" y="88" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -1331,7 +1410,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScL-5q-PM7" userLabel="EMCON">
-                                        <rect key="frame" x="841" y="213" width="86" height="90"/>
+                                        <rect key="frame" x="841" y="193" width="86" height="90"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/EMCON"/>
                                         <connections>
@@ -1341,77 +1420,77 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nva-Vm-74S" userLabel="OSBLabel1">
-                                        <rect key="frame" x="574" y="83" width="248" height="57"/>
+                                        <rect key="frame" x="574" y="63" width="248" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uag-Ce-JR0" userLabel="OSBLabel2">
-                                        <rect key="frame" x="574" y="194" width="248" height="57"/>
+                                        <rect key="frame" x="574" y="174" width="248" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uq-sQ-qAl" userLabel="OSBLabel3">
-                                        <rect key="frame" x="574" y="303" width="248" height="57"/>
+                                        <rect key="frame" x="574" y="283" width="248" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cO3-Aw-TNQ" userLabel="OSBLabel4">
-                                        <rect key="frame" x="574" y="404" width="248" height="57"/>
+                                        <rect key="frame" x="574" y="384" width="248" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGp-kj-Caz" userLabel="OSBLabel5">
-                                        <rect key="frame" x="574" y="515" width="248" height="57"/>
+                                        <rect key="frame" x="574" y="495" width="248" height="57"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIx-Iw-028" userLabel="ScratchpadLabel">
-                                        <rect key="frame" x="229" y="70" width="225" height="63"/>
+                                        <rect key="frame" x="229" y="50" width="225" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="946-PY-nnP" userLabel="ScratchpadPrefixLabel">
-                                        <rect key="frame" x="145" y="71" width="116" height="63"/>
+                                        <rect key="frame" x="145" y="51" width="116" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZiA-3H-yP4" userLabel="COM1Label">
-                                        <rect key="frame" x="35" y="515" width="69" height="63"/>
+                                        <rect key="frame" x="35" y="495" width="69" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bZ-oN-6U5" userLabel="COM2Label">
-                                        <rect key="frame" x="864" y="512" width="69" height="63"/>
+                                        <rect key="frame" x="864" y="492" width="69" height="63"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="48"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" tag="26" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhA-aM-WRF" userLabel="COM1INC">
-                                        <rect key="frame" x="47" y="466" width="46" height="47"/>
+                                        <rect key="frame" x="47" y="446" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="VXS-DO-a6m"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="27" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wiC-Kz-rMm" userLabel="COM1PUSH">
-                                        <rect key="frame" x="21" y="646" width="137" height="116"/>
+                                        <rect key="frame" x="21" y="626" width="137" height="116"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/COMM1_PULLED"/>
                                         <connections>
@@ -1421,21 +1500,21 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="28" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NEf-CQ-axe" userLabel="COM1DEC">
-                                        <rect key="frame" x="44.5" y="579" width="46" height="47"/>
+                                        <rect key="frame" x="44.5" y="559" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="FW9-XT-B3H"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="29" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAG-Lt-p9K" userLabel="COM2INC">
-                                        <rect key="frame" x="875" y="460" width="46" height="47"/>
+                                        <rect key="frame" x="875" y="440" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="oeq-3K-vli"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Og-IX-aaz" userLabel="COM2PUSH">
-                                        <rect key="frame" x="816" y="646" width="128" height="118"/>
+                                        <rect key="frame" x="816" y="626" width="128" height="118"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/COMM2_PULLED"/>
                                         <connections>
@@ -1445,77 +1524,77 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="31" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpj-DX-rUT" userLabel="COM2DEC">
-                                        <rect key="frame" x="875" y="578" width="46" height="47"/>
+                                        <rect key="frame" x="875" y="558" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="tjv-Wh-EoQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="32" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFd-sa-gql" userLabel="ADF UP">
-                                        <rect key="frame" x="8" y="181" width="114" height="47"/>
+                                        <rect key="frame" x="8" y="161" width="114" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="alI-7T-Vmp"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="33" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAX-zp-jdL" userLabel="ADF CENTER">
-                                        <rect key="frame" x="8" y="234" width="114" height="47"/>
+                                        <rect key="frame" x="8" y="214" width="114" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="jKx-9X-zw5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="34" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wX-Wc-RNP" userLabel="ADF DOWN">
-                                        <rect key="frame" x="8" y="285" width="114" height="47"/>
+                                        <rect key="frame" x="8" y="265" width="114" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="jY4-pe-RWw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="35" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1M-pV-3n7" userLabel="COMM1 VOL DEC">
-                                        <rect key="frame" x="14" y="375" width="46" height="47"/>
+                                        <rect key="frame" x="14" y="355" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="CJu-tA-4tq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="36" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDn-Fj-Nyi" userLabel="COMM1 VOL INC">
-                                        <rect key="frame" x="82" y="375" width="46" height="47"/>
+                                        <rect key="frame" x="82" y="355" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="Tm7-25-dSr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="37" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFK-7q-fid" userLabel="COMM2 VOL DEC">
-                                        <rect key="frame" x="848" y="374" width="46" height="47"/>
+                                        <rect key="frame" x="848" y="354" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="jSy-ER-D1e"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="38" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQS-Ae-v5c" userLabel="COMM2 VOL INC">
-                                        <rect key="frame" x="909" y="374" width="46" height="47"/>
+                                        <rect key="frame" x="909" y="354" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="DAG-1L-fCU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="39" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUr-uK-3EQ" userLabel="BRT DEC">
-                                        <rect key="frame" x="853" y="122" width="46" height="47"/>
+                                        <rect key="frame" x="853" y="102" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="mn5-I3-zY2"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ot-Fp-XPz" userLabel="BRT INC">
-                                        <rect key="frame" x="910" y="122" width="46" height="47"/>
+                                        <rect key="frame" x="910" y="102" width="46" height="47"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="kca-tv-NXJ" eventType="touchDown" id="RSQ-0d-y6T"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TY-ZH-UKB" userLabel="OSB1">
-                                        <rect key="frame" x="487" y="80" width="54" height="54"/>
+                                        <rect key="frame" x="487" y="60" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -1525,7 +1604,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2JP-BN-rar" userLabel="OSB2">
-                                        <rect key="frame" x="487" y="186" width="54" height="54"/>
+                                        <rect key="frame" x="487" y="166" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -1535,7 +1614,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbz-hs-7gp" userLabel="OSB3">
-                                        <rect key="frame" x="487" y="297" width="54" height="54"/>
+                                        <rect key="frame" x="487" y="277" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -1545,7 +1624,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOM-2s-CZj" userLabel="OSB4">
-                                        <rect key="frame" x="487" y="405" width="54" height="54"/>
+                                        <rect key="frame" x="487" y="385" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -1555,7 +1634,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXX-Dd-H48" userLabel="OSB5">
-                                        <rect key="frame" x="487" y="514" width="54" height="54"/>
+                                        <rect key="frame" x="487" y="494" width="54" height="54"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="highlighted" image="F18/OSB_PUSHED"/>
                                         <connections>
@@ -3356,6 +3435,10 @@
         <image name="f16/WX_PUSHED" width="76" height="78"/>
         <image name="f16/f16background" width="1026" height="776"/>
         <image name="ka50/KA50-PVI-background" width="1186" height="1542"/>
+        <image name="ka50/KA50-PVI-dl-up" width="82" height="182"/>
+        <image name="ka50/KA50-PVI-operation-mode-up" width="82" height="182"/>
+        <image name="ka50/KA50-white-light" width="180" height="158"/>
+        <image name="ka50/KA50-yellow-light" width="180" height="158"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

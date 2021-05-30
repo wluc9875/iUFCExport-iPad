@@ -19,6 +19,39 @@
 import UIKit
 
 class Ka50ViewController: PlaneViewController {
+    @IBOutlet var line1Label: UILabel!
+    @IBOutlet var line2Label: UILabel!
+    @IBOutlet var point1Label: UILabel!
+    @IBOutlet var point2Label: UILabel!
+    @IBOutlet var rotatorImageView: UIImageView!
+    @IBOutlet var modeImageView: UIImageView!
+    @IBOutlet var dataLinkImageView: UIImageView!
+    @IBOutlet var waypointButton: UIButton!
+    @IBOutlet var inuResetButton: UIButton!
+    @IBOutlet var fixButton: UIButton!
+    @IBOutlet var preciseINUButton: UIButton!
+    @IBOutlet var airfieldButton: UIButton!
+    @IBOutlet var normalINUButton: UIButton!
+    @IBOutlet var targetButton: UIButton!
+    @IBOutlet var enterButton: UIButton!
+    @IBOutlet var clearButton: UIButton!
+    @IBOutlet var initialPointButton: UIButton!
+    @IBOutlet var selfCoordButton: UIButton!
+    @IBOutlet var dataDHButton: UIButton!
+    @IBOutlet var windButton: UIButton!
+    @IBOutlet var theadButton: UIButton!
+    @IBOutlet var bearingButton: UIButton!
+    
+    static let rotatorToImageView = [
+        //0.0: nil, // default image
+        0.1: "ka50/KA50-PVI-rotary-1",
+        0.2: "ka50/KA50-PVI-rotary-2",
+        0.3: "ka50/KA50-PVI-rotary-3",
+        0.4: "ka50/KA50-PVI-rotary-4",
+        0.5: "ka50/KA50-PVI-rotary-5",
+        0.6: "ka50/KA50-PVI-rotary-6",
+    ]
+    
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 20, commandId: 3001), // NUM0 (0)
@@ -56,5 +89,83 @@ class Ka50ViewController: PlaneViewController {
     }
     
     override func updateDisplays(with content: [String: String]) {
+        let buttons: [UIButton] = [
+            waypointButton,
+            inuResetButton,
+            fixButton,
+            preciseINUButton,
+            airfieldButton,
+            normalINUButton,
+            targetButton,
+            enterButton,
+            clearButton,
+            initialPointButton,
+            selfCoordButton,
+            dataDHButton,
+            windButton,
+            theadButton,
+            bearingButton
+        ]
+        
+        let lights = (content["lights"] ?? "").split(separator: " ")
+        
+        var line1 = (content["txt_VIT_sign"] ?? "")
+        var i = 0
+        for char in (content["txt_VIT"] ?? "") {
+            line1.append(char)
+            if (i == 2) {
+                line1.append(content["txt_VIT_apostrophe1"] ?? "")
+            }
+            if (i == 4) {
+                line1.append(content["txt_VIT_apostrophe2"] ?? "")
+            }
+            i += 1
+        }
+        var line2 = (content["txt_NIT_sign"] ?? "")
+        i = 0
+        for char in (content["txt_NIT"] ?? "") {
+            line2.append(char)
+            if (i == 2) {
+                line2.append(content["txt_NIT_apostrophe1"] ?? "")
+            }
+            if (i == 4) {
+                line2.append(content["txt_NIT_apostrophe2"] ?? "")
+            }
+            i += 1
+        }
+        let point1 = (content["txt_OIT_PPM"] ?? "")
+        let point2 = (content["txt_OIT_NOT"] ?? "")
+        
+        var rotatorImage: UIImage? = nil
+        if let rotator = content["rotator"] {
+            if let rotatorAsNumber = Double(rotator) {
+                let roundedRotator = (rotatorAsNumber * 10.0).rounded() / 10.0
+                // TODO: find a better way to handle rotator with no CW or CCW command
+                if (roundedRotator >= 0.1) {
+                    actions[25] = Action(type: .pushButton, deviceId: 20, commandId: 3026, argument: roundedRotator - 0.1)
+                }
+                if (roundedRotator <= 0.5) {
+                    actions[26] = Action(type: .pushButton, deviceId: 20, commandId: 3027, argument: roundedRotator + 0.1)
+                }
+                if let rotatorImageName = Ka50ViewController.rotatorToImageView[roundedRotator] {
+                    rotatorImage = UIImage(named: rotatorImageName)
+                }
+            }
+        }
+        
+        DispatchQueue.main.async {
+            self.line1Label.text = line1
+            self.line2Label.text = line2
+            self.point1Label.text = point1
+            self.point2Label.text = point2
+            self.rotatorImageView.image = rotatorImage
+            self.modeImageView.isHighlighted = (content["fixmethod"] == "1")
+            self.dataLinkImageView.isHighlighted = (content["datalink"] == "1")
+            var i = 0
+            for light in lights {
+                buttons[i].isSelected = (light != "0")
+                i += 1
+            }
+        }
     }
 }
