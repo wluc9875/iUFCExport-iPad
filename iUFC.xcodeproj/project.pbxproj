@@ -10,6 +10,7 @@
 		FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F425AF81E400FCEC89 /* DCSConnection.swift */; };
 		FD2216F825AF8C5C00FCEC89 /* DCSConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */; };
 		FD24A1C825DF0814009D357F /* Assets License.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD24A1C725DF0814009D357F /* Assets License.txt */; };
+		FD3E033E26DB7271005E77EE /* M2000ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E033D26DB7271005E77EE /* M2000ViewController.swift */; };
 		FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */; };
 		FD4FFF1225BC2FE8006B3772 /* F16TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */; };
 		FD5AA67B25A7AB00006D98B1 /* F18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */; };
@@ -34,6 +35,7 @@
 		FD2216F425AF81E400FCEC89 /* DCSConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnection.swift; sourceTree = "<group>"; };
 		FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnectionDelegate.swift; sourceTree = "<group>"; };
 		FD24A1C725DF0814009D357F /* Assets License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets License.txt"; sourceTree = "<group>"; };
+		FD3E033D26DB7271005E77EE /* M2000ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000ViewController.swift; sourceTree = "<group>"; };
 		FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50ViewController.swift; sourceTree = "<group>"; };
 		FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16TestViewController.swift; sourceTree = "<group>"; };
 		FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */,
 				FD7CD17825B2454B0013D55A /* JF17ViewController.swift */,
 				FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */,
+				FD3E033D26DB7271005E77EE /* M2000ViewController.swift */,
 				FD7CD17525B244EC0013D55A /* SA342ViewController.swift */,
 				FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */,
 				FD9CBC6E25A9EC130078BB3B /* Action.swift */,
@@ -203,6 +206,7 @@
 				FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */,
 				FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */,
 				FDB12F2A261ED92800B972BE /* AJS37ViewController.swift in Sources */,
+				FD3E033E26DB7271005E77EE /* M2000ViewController.swift in Sources */,
 				FD7C92D725A2220000FC3DCB /* SceneDelegate.swift in Sources */,
 				FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */,
 				FD9CBC6C25A9EBC70078BB3B /* ActionType.swift in Sources */,
@@ -356,14 +360,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -378,14 +382,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
