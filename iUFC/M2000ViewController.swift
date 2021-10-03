@@ -28,6 +28,16 @@ class M2000ViewController: PlaneViewController {
     @IBOutlet var valButton: UIButton!
     @IBOutlet var mrcButton: UIButton!
     @IBOutlet var rotatorImageView: UIImageView!
+    @IBOutlet var blDigitsLabel: UILabel!
+    @IBOutlet var brDigitsLabel: UILabel!
+    @IBOutlet var ulDigitsLabel: UILabel!
+    @IBOutlet var urDigitsLabel: UILabel!
+    @IBOutlet var ulPointsLabel: UILabel!
+    @IBOutlet var urPointsLabel: UILabel!
+    @IBOutlet var ulNorthLabel: UILabel!
+    @IBOutlet var ulSouthLabel: UILabel!
+    @IBOutlet var urEastLabel: UILabel!
+    @IBOutlet var urWestLabel: UILabel!
     
     // TBD
     static let rotatorToImageView = [
@@ -87,6 +97,17 @@ class M2000ViewController: PlaneViewController {
         
         let lights = (content["lights"] ?? "").split(separator: " ")
         
+        let blDigits = content["PCN_BL_DIGITS"] ?? ""
+        let brDigits = content["PCN_BR_DIGITS"] ?? ""
+        let ulDigits = content["PCN_UL_DIGITS"] ?? ""
+        let urDigits = content["PCN_UR_DIGITS"] ?? ""
+        let ulPoints = content["PCN_UL_POINTS"] ?? ""
+        let urPoints = content["PCN_UR_POINTS"] ?? ""
+        let ulNorth = (content["PCN_UL_N"] ?? "") + (content["PCN_UL_P"] ?? "")
+        let ulSouth = (content["PCN_UL_S"] ?? "") + (content["PCN_UL_M"] ?? "")
+        let urEast = (content["PCN_UR_E"] ?? "") + (content["PCN_UR_P"] ?? "")
+        let urWest = (content["PCN_UR_W"] ?? "") + (content["PCN_UR_M"] ?? "")
+        
         var rotatorImage: UIImage? = nil
         if let rotator = content["rotator"] {
             if let rotatorAsNumber = Double(rotator) {
@@ -106,6 +127,18 @@ class M2000ViewController: PlaneViewController {
         
         DispatchQueue.main.async {
             self.rotatorImageView.image = rotatorImage
+            
+            self.blDigitsLabel.text = blDigits
+            self.brDigitsLabel.text = brDigits
+            self.ulDigitsLabel.text = ulDigits
+            self.urDigitsLabel.text = urDigits
+            self.ulPointsLabel.text = ulPoints
+            self.urPointsLabel.text = urPoints
+            self.ulNorthLabel.text = ulNorth
+            self.ulSouthLabel.text = ulSouth
+            self.urEastLabel.text = urEast
+            self.urWestLabel.text = urWest
+            
             var i = 0
             for light in lights {
                 buttons[i].isSelected = (light == "1")

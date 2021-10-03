@@ -1345,15 +1345,6 @@
                                             <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpInside" id="nYY-5L-e4e"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-gc-g95" userLabel="VAL">
-                                        <rect key="frame" x="255" y="622" width="87" height="51"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <action selector="buttonPushed:" destination="t3g-74-Fsh" eventType="touchDown" id="wyz-v6-mvl"/>
-                                            <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpOutside" id="CyR-cf-TET"/>
-                                            <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpInside" id="z9b-lS-iQT"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMO-S3-uAN" userLabel="MRC">
                                         <rect key="frame" x="425" y="627" width="81" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1392,6 +1383,86 @@
                                             <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpInside" id="sHi-JY-Edi"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4o-7x-SbU" userLabel="BL_DIGITS">
+                                        <rect key="frame" x="130" y="147" width="86" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5oF-kv-UXX" userLabel="BR_DIGITS">
+                                        <rect key="frame" x="436" y="152" width="89" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ux-lx-DBH" userLabel="UL_DIGITS">
+                                        <rect key="frame" x="257" y="29" width="249" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evP-3L-Prn" userLabel="UR_DIGITS">
+                                        <rect key="frame" x="621" y="24" width="249" height="73"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QG-4Q-ZS3" userLabel="UL_POINTS">
+                                        <rect key="frame" x="238" y="35" width="217" height="71"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ao-GR-QOb" userLabel="UR_POINTS">
+                                        <rect key="frame" x="601" y="27" width="249" height="73"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KI-EP-AdG" userLabel="UL_NORTH">
+                                        <rect key="frame" x="231" y="18" width="30" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="32"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCE-PL-K9U" userLabel="UR_EAST">
+                                        <rect key="frame" x="592" y="15" width="30" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="32"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7R-m5-PHB" userLabel="UL_SOUTH">
+                                        <rect key="frame" x="232" y="53" width="30" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="32"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPY-Ko-2VT" userLabel="UR_WEST">
+                                        <rect key="frame" x="593" y="50" width="30" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="32"/>
+                                        <color key="textColor" systemColor="systemTealColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5j-gc-g95" userLabel="VAL">
+                                        <rect key="frame" x="247" y="619" width="91" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="selected" image="M2000C/M2000-PCN-VAL-light"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="t3g-74-Fsh" eventType="touchDown" id="wyz-v6-mvl"/>
+                                            <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpOutside" id="CyR-cf-TET"/>
+                                            <action selector="buttonReleased:" destination="t3g-74-Fsh" eventType="touchUpInside" id="z9b-lS-iQT"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -1409,6 +1480,8 @@
                     </view>
                     <connections>
                         <outlet property="badButton" destination="R32-jj-35x" id="peC-gD-iU6"/>
+                        <outlet property="blDigitsLabel" destination="M4o-7x-SbU" id="Huc-bf-CbC"/>
+                        <outlet property="brDigitsLabel" destination="5oF-kv-UXX" id="9UZ-UH-il3"/>
                         <outlet property="destButton" destination="BNJ-g4-3b8" id="RUT-Ne-6O3"/>
                         <outlet property="effButton" destination="XDw-gj-034" id="ykx-FP-Glw"/>
                         <outlet property="insButton" destination="CsI-Nv-7Oj" id="jXn-f8-uRw"/>
@@ -1416,6 +1489,14 @@
                         <outlet property="prepButton" destination="yLQ-52-FE9" id="UEk-oN-pxE"/>
                         <outlet property="recButton" destination="DuI-DU-A0e" id="ru3-ZG-zJy"/>
                         <outlet property="rotatorImageView" destination="iie-zw-d2j" id="BnA-t6-iEV"/>
+                        <outlet property="ulDigitsLabel" destination="0Ux-lx-DBH" id="1pK-T8-rRa"/>
+                        <outlet property="ulNorthLabel" destination="9KI-EP-AdG" id="AU3-oN-1xx"/>
+                        <outlet property="ulPointsLabel" destination="7QG-4Q-ZS3" id="NO9-id-OaQ"/>
+                        <outlet property="ulSouthLabel" destination="h7R-m5-PHB" id="Wpj-Vw-sUu"/>
+                        <outlet property="urDigitsLabel" destination="evP-3L-Prn" id="QSg-fu-4h1"/>
+                        <outlet property="urEastLabel" destination="gCE-PL-K9U" id="fP2-A4-oDg"/>
+                        <outlet property="urPointsLabel" destination="8ao-GR-QOb" id="WTu-6N-TRD"/>
+                        <outlet property="urWestLabel" destination="cPY-Ko-2VT" id="PUH-sv-CxX"/>
                         <outlet property="valButton" destination="l5j-gc-g95" id="k7y-do-05M"/>
                     </connections>
                 </viewController>
@@ -3624,6 +3705,7 @@
         <image name="M2000C/M2000-PCN-MRC-light" width="304" height="208"/>
         <image name="M2000C/M2000-PCN-PREP-light" width="244" height="240"/>
         <image name="M2000C/M2000-PCN-REC-light" width="304" height="208"/>
+        <image name="M2000C/M2000-PCN-VAL-light" width="304" height="208"/>
         <image name="M2000C/M2000-PCN-background" width="3568" height="2712"/>
         <image name="SA342/NADIR_rotator" width="73" height="73"/>
         <image name="SA342/NADIR_rotator_002" width="45" height="44"/>
@@ -3688,6 +3770,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
