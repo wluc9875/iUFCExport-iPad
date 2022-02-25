@@ -18,7 +18,7 @@
 
 import UIKit
 
-class F16TestViewController: PlaneViewController {
+class F16CMSViewControlller: PlaneViewController {
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 19, commandId: 3003), // EMER STORES JETTISON Button (0)

@@ -12,7 +12,7 @@
 		FD24A1C825DF0814009D357F /* Assets License.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD24A1C725DF0814009D357F /* Assets License.txt */; };
 		FD3E033E26DB7271005E77EE /* M2000ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E033D26DB7271005E77EE /* M2000ViewController.swift */; };
 		FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */; };
-		FD4FFF1225BC2FE8006B3772 /* F16TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */; };
+		FD4FFF1225BC2FE8006B3772 /* F16CMSViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */; };
 		FD5AA67B25A7AB00006D98B1 /* F18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */; };
 		FD6CA7A625A9D82100BBC394 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */; };
 		FD6CA7AA25A9DC4800BBC394 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */; };
@@ -37,7 +37,7 @@
 		FD24A1C725DF0814009D357F /* Assets License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets License.txt"; sourceTree = "<group>"; };
 		FD3E033D26DB7271005E77EE /* M2000ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000ViewController.swift; sourceTree = "<group>"; };
 		FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50ViewController.swift; sourceTree = "<group>"; };
-		FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16TestViewController.swift; sourceTree = "<group>"; };
+		FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16CMSViewControlller.swift; sourceTree = "<group>"; };
 		FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18ViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				FDB12F29261ED92800B972BE /* AJS37ViewController.swift */,
 				FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */,
 				FD7C92D825A2220000FC3DCB /* F16ICPViewController.swift */,
-				FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */,
+				FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */,
 				FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */,
 				FD7CD17825B2454B0013D55A /* JF17ViewController.swift */,
 				FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */,
@@ -210,7 +210,7 @@
 				FD7C92D725A2220000FC3DCB /* SceneDelegate.swift in Sources */,
 				FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */,
 				FD9CBC6C25A9EBC70078BB3B /* ActionType.swift in Sources */,
-				FD4FFF1225BC2FE8006B3772 /* F16TestViewController.swift in Sources */,
+				FD4FFF1225BC2FE8006B3772 /* F16CMSViewControlller.swift in Sources */,
 				FD7CD17925B2454B0013D55A /* JF17ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,14 +360,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 40;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -382,14 +382,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 40;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
