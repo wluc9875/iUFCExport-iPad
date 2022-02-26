@@ -518,8 +518,28 @@
                     <view key="view" contentMode="scaleToFill" id="PCK-dL-w4o">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RbV-iT-g0w">
+                                <rect key="frame" x="18.5" y="62.5" width="987" height="613"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f16/F16-CMS-background" translatesAutoresizingMaskIntoConstraints="NO" id="2sZ-49-7h6">
+                                        <rect key="frame" x="0.0" y="0.0" width="987" height="613"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="613" id="cZ1-Jf-qeN"/>
+                                    <constraint firstAttribute="width" constant="987" id="eQf-GL-Z22"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="rWL-aM-oNB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RbV-iT-g0w" firstAttribute="centerX" secondItem="rWL-aM-oNB" secondAttribute="centerX" id="1G9-p3-Zw9"/>
+                            <constraint firstItem="RbV-iT-g0w" firstAttribute="centerY" secondItem="rWL-aM-oNB" secondAttribute="centerY" id="sTU-Xd-XUo"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="9A4-Hz-iGb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -1039,8 +1059,28 @@
                     <view key="view" contentMode="scaleToFill" id="Rh1-oU-9WS">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tvg-gr-2Ki">
+                                <rect key="frame" x="110.5" y="130.5" width="803" height="477"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="F18/F18-CMS-background" translatesAutoresizingMaskIntoConstraints="NO" id="PkC-u2-L4i">
+                                        <rect key="frame" x="0.0" y="0.0" width="803" height="477"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="803" id="SHr-pb-Jg4"/>
+                                    <constraint firstAttribute="height" constant="477" id="snI-UD-4K3"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Jpb-ui-Vrx"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Tvg-gr-2Ki" firstAttribute="centerX" secondItem="Jpb-ui-Vrx" secondAttribute="centerX" id="Iib-ZF-rlI"/>
+                            <constraint firstItem="Tvg-gr-2Ki" firstAttribute="centerY" secondItem="Jpb-ui-Vrx" secondAttribute="centerY" id="mNX-69-2FE"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="pgS-34-ehQ"/>
                 </viewController>
@@ -2277,8 +2317,28 @@
                     <view key="view" contentMode="scaleToFill" id="FDe-tf-Na1">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEn-Kr-tQ8">
+                                <rect key="frame" x="207" y="40" width="610" height="658"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AJS37/AJS37-CMS-background" translatesAutoresizingMaskIntoConstraints="NO" id="sod-0R-App">
+                                        <rect key="frame" x="0.0" y="0.0" width="610" height="658"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="610" id="BQH-fp-tMt"/>
+                                    <constraint firstAttribute="height" constant="658" id="u4Y-ZL-D9V"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IY3-4n-gWF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bEn-Kr-tQ8" firstAttribute="centerX" secondItem="IY3-4n-gWF" secondAttribute="centerX" id="W7w-9s-QRr"/>
+                            <constraint firstItem="bEn-Kr-tQ8" firstAttribute="centerY" secondItem="IY3-4n-gWF" secondAttribute="centerY" id="ZWp-UW-c3J"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="4aQ-1d-tio"/>
                 </viewController>
@@ -2289,7 +2349,6 @@
         <!--KA50 Tab Bar Controller-->
         <scene sceneID="2oe-Is-Ah2">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrr-6J-oQa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController storyboardIdentifier="KA50" id="Ngb-Sv-cf6" userLabel="KA50 Tab Bar Controller" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eQV-pn-icW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
@@ -2301,6 +2360,7 @@
                         <segue destination="YpM-5F-yoX" kind="relationship" relationship="viewControllers" id="Fom-Yb-WMa"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrr-6J-oQa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1559" y="3101"/>
         </scene>
@@ -2689,16 +2749,36 @@
         <!--KA50 CMS View Controller-->
         <scene sceneID="4mg-8e-YLd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y4p-0n-Ymh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="YpM-5F-yoX" userLabel="KA50 CMS View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FES-iB-Bct">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H3g-rp-BC4">
+                                <rect key="frame" x="336" y="45" width="352" height="648"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ka50/KA50-CMS-cmsbase" translatesAutoresizingMaskIntoConstraints="NO" id="lVa-uu-dY7">
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="648"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="648" id="AKm-Nn-67C"/>
+                                    <constraint firstAttribute="width" constant="352" id="bPT-dx-VVB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="0se-qH-as4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="H3g-rp-BC4" firstAttribute="centerY" secondItem="0se-qH-as4" secondAttribute="centerY" id="Dxg-30-oY6"/>
+                            <constraint firstItem="H3g-rp-BC4" firstAttribute="centerX" secondItem="0se-qH-as4" secondAttribute="centerX" id="Ni5-la-UgY"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="0xq-si-QFd"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y4p-0n-Ymh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2377" y="3839"/>
         </scene>
@@ -3042,8 +3122,28 @@
                     <view key="view" contentMode="scaleToFill" id="efC-Wc-FJk">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="szB-Bc-RVX">
+                                <rect key="frame" x="29" y="204" width="966" height="330"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="M2000C/M2000-CMS-bacakground" translatesAutoresizingMaskIntoConstraints="NO" id="gTR-7c-TiP">
+                                        <rect key="frame" x="0.0" y="0.0" width="966" height="330"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="966" id="6mT-Ql-f5J"/>
+                                    <constraint firstAttribute="height" constant="330" id="Hiz-st-2QR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ZgK-5q-2A9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="szB-Bc-RVX" firstAttribute="centerY" secondItem="ZgK-5q-2A9" secondAttribute="centerY" id="FOG-ss-fmq"/>
+                            <constraint firstItem="szB-Bc-RVX" firstAttribute="centerX" secondItem="ZgK-5q-2A9" secondAttribute="centerX" id="k5L-zh-N9f"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="yQH-gr-juk"/>
                 </viewController>
@@ -3481,8 +3581,28 @@
                     <view key="view" contentMode="scaleToFill" id="aUn-7L-LPA">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IkO-V5-j18">
+                                <rect key="frame" x="36" y="94" width="952" height="550"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="a10/A10-CMS-background" translatesAutoresizingMaskIntoConstraints="NO" id="ZaO-fG-vK6">
+                                        <rect key="frame" x="0.0" y="0.0" width="952" height="550"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="952" id="Kjo-qy-2se"/>
+                                    <constraint firstAttribute="height" constant="550" id="Wd6-5t-73k"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dII-M7-owP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IkO-V5-j18" firstAttribute="centerX" secondItem="dII-M7-owP" secondAttribute="centerX" id="AAa-9p-lyN"/>
+                            <constraint firstItem="IkO-V5-j18" firstAttribute="centerY" secondItem="dII-M7-owP" secondAttribute="centerY" id="h5Q-Hz-evK"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="V9D-lK-lUy"/>
                 </viewController>
@@ -3752,6 +3872,7 @@
         <image name="AJS37/AJS37-CK37-NUM7-pushed" width="150" height="148"/>
         <image name="AJS37/AJS37-CK37-NUM8-pushed" width="150" height="148"/>
         <image name="AJS37/AJS37-CK37-NUM9-pushed" width="150" height="148"/>
+        <image name="AJS37/AJS37-CMS-background" width="1280" height="1382"/>
         <image name="AJS37/AJS37-NAV-background" width="1798" height="1226"/>
         <image name="AJS37/AJS37-waypoints-B1-pushed" width="176" height="176"/>
         <image name="AJS37/AJS37-waypoints-B2-pushed" width="176" height="176"/>
@@ -3806,6 +3927,7 @@
         <image name="F18/DL" width="86" height="90"/>
         <image name="F18/EMCON" width="86" height="90"/>
         <image name="F18/ENT" width="86" height="90"/>
+        <image name="F18/F18-CMS-background" width="803" height="477"/>
         <image name="F18/IFF" width="86" height="90"/>
         <image name="F18/ILS" width="86" height="90"/>
         <image name="F18/NUM0_PUSHED" width="86" height="90"/>
@@ -3860,6 +3982,7 @@
         <image name="JF17/JF17-UFCP-RTN-pushed" width="144" height="134"/>
         <image name="JF17/JF17-UFCP-background" width="1794" height="1432"/>
         <image name="JF17/JF17-UFCP-fast-select-dec" width="136" height="178"/>
+        <image name="M2000C/M2000-CMS-bacakground" width="1160" height="397"/>
         <image name="M2000C/M2000-PCN-BAD-light" width="300" height="196"/>
         <image name="M2000C/M2000-PCN-DEST-light" width="256" height="256"/>
         <image name="M2000C/M2000-PCN-EFF-light" width="252" height="252"/>
@@ -3872,6 +3995,7 @@
         <image name="SA342/NADIR_rotator" width="73" height="73"/>
         <image name="SA342/NADIR_rotator_002" width="45" height="44"/>
         <image name="SA342/Nadir_BG" width="559" height="600"/>
+        <image name="a10/A10-CMS-background" width="1237" height="716"/>
         <image name="a10/A10-UFC-ALT-pushed" width="100" height="100"/>
         <image name="a10/A10-UFC-CLR-pushed" width="100" height="100"/>
         <image name="a10/A10-UFC-COM1-pushed" width="100" height="100"/>
@@ -3904,6 +4028,7 @@
         <image name="f16/COM1_PUSHED" width="108" height="108"/>
         <image name="f16/COM2_PUSHED" width="108" height="108"/>
         <image name="f16/ENTR_PUSHED" width="114" height="116"/>
+        <image name="f16/F16-CMS-background" width="987" height="613"/>
         <image name="f16/IFF_PUSHED" width="108" height="108"/>
         <image name="f16/LIST_PUSHED" width="108" height="108"/>
         <image name="f16/NUM0_PUSHED" width="114" height="116"/>
@@ -3919,6 +4044,7 @@
         <image name="f16/RCL_PUSHED" width="114" height="116"/>
         <image name="f16/WX_PUSHED" width="76" height="78"/>
         <image name="f16/f16background" width="1026" height="776"/>
+        <image name="ka50/KA50-CMS-cmsbase" width="599" height="1102"/>
         <image name="ka50/KA50-PVI-background" width="1186" height="1542"/>
         <image name="ka50/KA50-PVI-dl-up" width="82" height="182"/>
         <image name="ka50/KA50-PVI-operation-mode-up" width="82" height="182"/>
