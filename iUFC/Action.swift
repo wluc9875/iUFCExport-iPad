@@ -18,9 +18,20 @@
 
 import Foundation
 
-struct Action {
+class Action {
     var type: ActionType
     var deviceId: Int
     var commandId: Int
-    var argument: Double = 1.0
+    var argument: Double
+    
+    init(type: ActionType, deviceId: Int, commandId: Int, argument: Double = 1.0) {
+        self.type = type
+        self.deviceId = deviceId
+        self.commandId = commandId
+        self.argument = argument
+    }
+    
+    func toggleArgument() {
+        self.argument = 1.0 - self.argument
+    }
 }

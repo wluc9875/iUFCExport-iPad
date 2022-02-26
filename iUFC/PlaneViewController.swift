@@ -74,6 +74,10 @@ class PlaneViewController: UIViewController, DCSConnectionDelegate {
             }
         }
         let action = actions[sender.tag]
+        if (action.type == .toggleButton) {
+            action.toggleArgument()
+        }
+        
         print("\(action.deviceId) \(action.commandId) \(action.argument)")
         let message = "\(action.deviceId) \(action.commandId) \(action.argument)\n"
         dcsConnection?.sendMessage(content: message)
