@@ -70,16 +70,16 @@ class M2000ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 9, commandId: 3590), // NUM7 (7)
             Action(type: .pushButton, deviceId: 9, commandId: 3591), // NUM8 (8)
             Action(type: .pushButton, deviceId: 9, commandId: 3592), // NUM9 (9)
-            Action(type: .pushButton, deviceId: 9, commandId: 3594), // EFF (10) device 595
-            Action(type: .pushButton, deviceId: 9, commandId: 3596), // INS (11) device 597
-            Action(type: .pushButton, deviceId: 9, commandId: 3570), // PREP (12) device 571
-            Action(type: .pushButton, deviceId: 9, commandId: 3572), // DEST (13) device 573
-            Action(type: .pushButton, deviceId: 9, commandId: 3576), // BAD (14) device 577
-            Action(type: .pushButton, deviceId: 9, commandId: 3578), // REC (15) device 579
-            Action(type: .pushButton, deviceId: 9, commandId: 3580), // VAL (16) device 581
-            Action(type: .pushButton, deviceId: 9, commandId: 3582), // MRC (17) device 583
-            Action(type: .pushButton, deviceId: 9, commandId: 3574, argument: -1), // PCN Selector CCW (18)  device 574
-            Action(type: .pushButton, deviceId: 9, commandId: 3574, argument: 1), // PCN Selector CW (19)
+            Action(type: .pushButton, deviceId: 9, commandId: 3594), // EFF (10) indicator 595
+            Action(type: .pushButton, deviceId: 9, commandId: 3596), // INS (11) indicator 597
+            Action(type: .pushButton, deviceId: 9, commandId: 3570), // PREP (12) indicator 571
+            Action(type: .pushButton, deviceId: 9, commandId: 3572), // DEST (13) indicator 573
+            Action(type: .pushButton, deviceId: 9, commandId: 3576), // BAD (14) indicator 577
+            Action(type: .pushButton, deviceId: 9, commandId: 3578), // REC (15) indicator 579
+            Action(type: .pushButton, deviceId: 9, commandId: 3580), // VAL (16) indicator 581
+            Action(type: .pushButton, deviceId: 9, commandId: 3582), // MRC (17) indicator 583
+            Action(type: .rotatorCCW, deviceId: 9, commandId: 3574, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 1.0), // PCN Selector CCW (18)  indicator 574
+            Action(type: .rotatorCW, deviceId: 9, commandId: 3574, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 1.0), // PCN Selector CW (19)
         ]
     }
     
@@ -112,13 +112,8 @@ class M2000ViewController: PlaneViewController {
         if let rotator = content["rotator"] {
             if let rotatorAsNumber = Double(rotator) {
                 let roundedRotator = (rotatorAsNumber * 10.0).rounded()
-                // TODO: find a better way to handle rotator with no CW or CCW command
-                if (roundedRotator >= 1) {
-                    actions[18] = Action(type: .pushButton, deviceId: 9, commandId: 3574, argument: roundedRotator / 10.0 - 0.1)
-                }
-                if (roundedRotator <= 9) {
-                    actions[19] = Action(type: .pushButton, deviceId: 9, commandId: 3574, argument: roundedRotator / 10.0 + 0.1)
-                }
+                actions[18].argument = roundedRotator / 10.0
+                actions[19].argument = roundedRotator / 10.0
                 if let rotatorImageName = M2000ViewController.rotatorToImageView[roundedRotator] {
                     rotatorImage = UIImage(named: rotatorImageName)
                 }

@@ -23,4 +23,6 @@ enum ActionType {
     case momentary3Way
     case latched3way
     case toggleButton
+    case rotatorCCW
+    case rotatorCW
 }

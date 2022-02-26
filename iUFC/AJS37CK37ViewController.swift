@@ -18,7 +18,7 @@
 
 import UIKit
 
-class AJS37ViewController: PlaneViewController {
+class AJS37CK37ViewController: PlaneViewController {
     @IBOutlet var dataLabel1: UILabel!
     @IBOutlet var dataLabel2: UILabel!
     @IBOutlet var dataLabel3: UILabel!
@@ -73,7 +73,7 @@ class AJS37ViewController: PlaneViewController {
         var dataselImage: UIImage? = nil
         if let datasel = content["datasel"] {
             if let dataselAsNumber = Double(datasel) {
-                if let dataselImageName = AJS37ViewController.dataselToImage[(dataselAsNumber * 10.0).rounded() / 10.0] {
+                if let dataselImageName = AJS37CK37ViewController.dataselToImage[(dataselAsNumber * 10.0).rounded() / 10.0] {
                     dataselImage = UIImage(named: dataselImageName)
                 }
             }

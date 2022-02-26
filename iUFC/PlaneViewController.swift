@@ -74,9 +74,18 @@ class PlaneViewController: UIViewController, DCSConnectionDelegate {
             }
         }
         let action = actions[sender.tag]
+        
         if (action.type == .toggleButton) {
             action.toggleArgument()
-        }
+        } else if (action.type == .rotatorCW) {
+            let actionCCW = actions[sender.tag - 1]
+            action.increaseArgument()
+            actionCCW.increaseArgument()
+        } else if (action.type == .rotatorCCW) {
+           let actionCW = actions[sender.tag + 1]
+           action.decreaseArgument()
+           actionCW.decreaseArgument()
+       }
         
         print("\(action.deviceId) \(action.commandId) \(action.argument)")
         let message = "\(action.deviceId) \(action.commandId) \(action.argument)\n"

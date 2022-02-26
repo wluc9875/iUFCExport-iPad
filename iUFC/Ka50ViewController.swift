@@ -79,8 +79,8 @@ class Ka50ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 20, commandId: 3023), // WIND DI/SP (22)
             Action(type: .pushButton, deviceId: 20, commandId: 3024), // THEAD TIME/DIS (23)
             Action(type: .pushButton, deviceId: 20, commandId: 3025), // BRG/RA TGT PNT (24)
-            Action(type: .pushButton, deviceId: 20, commandId: 3026, argument: -0.1), // MASTER MODE CCW (25)
-            Action(type: .pushButton, deviceId: 20, commandId: 3027, argument: 0.1), // MASTER MODE CW (26)
+            Action(type: .rotatorCCW, deviceId: 20, commandId: 3026, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.6), // MASTER MODE CCW (25)
+            Action(type: .rotatorCW, deviceId: 20, commandId: 3027, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.6), // MASTER MODE CW (26)
             Action(type: .pushButton, deviceId: 20, commandId: 3028), // FIXMETHOD UP (27)
             Action(type: .pushButton, deviceId: 20, commandId: 3028, argument: 0.0), // FIXMETHOD DOWN (28)
             Action(type: .pushButton, deviceId: 25, commandId: 3016), // DATALINK POWER ON (29)
@@ -140,13 +140,8 @@ class Ka50ViewController: PlaneViewController {
         if let rotator = content["rotator"] {
             if let rotatorAsNumber = Double(rotator) {
                 let roundedRotator = (rotatorAsNumber * 10.0).rounded() / 10.0
-                // TODO: find a better way to handle rotator with no CW or CCW command
-                if (roundedRotator >= 0.1) {
-                    actions[25] = Action(type: .pushButton, deviceId: 20, commandId: 3026, argument: roundedRotator - 0.1)
-                }
-                if (roundedRotator <= 0.5) {
-                    actions[26] = Action(type: .pushButton, deviceId: 20, commandId: 3027, argument: roundedRotator + 0.1)
-                }
+                actions[25].argument = roundedRotator
+                actions[26].argument = roundedRotator
                 if let rotatorImageName = Ka50ViewController.rotatorToImageView[roundedRotator] {
                     rotatorImage = UIImage(named: rotatorImageName)
                 }
