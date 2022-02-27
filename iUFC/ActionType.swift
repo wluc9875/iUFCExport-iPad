@@ -20,8 +20,6 @@ import Foundation
 
 enum ActionType {
     case pushButton
-    case momentary3Way
-    case latched3way
     case toggleButton
     case rotatorCCW
     case rotatorCW

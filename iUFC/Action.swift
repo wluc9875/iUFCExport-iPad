@@ -27,7 +27,7 @@ class Action {
     var minimum: Double
     var maximum: Double
     
-    init(type: ActionType, deviceId: Int, commandId: Int, argument: Double = 1.0, increment: Double = 0.0, minimum: Double = 0.0, maximum: Double = 0.0) {
+    init(type: ActionType, deviceId: Int, commandId: Int, argument: Double = 1.0, increment: Double = 1.0, minimum: Double = 0.0, maximum: Double = 0.0) {
         self.type = type
         self.deviceId = deviceId
         self.commandId = commandId
@@ -38,7 +38,7 @@ class Action {
     }
     
     func toggleArgument() {
-        self.argument = 1.0 - self.argument
+        self.argument = self.increment - self.argument
     }
     
     func increaseArgument() {

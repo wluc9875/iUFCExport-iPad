@@ -18,7 +18,7 @@
 
 import UIKit
 
-class F18ViewController: PlaneViewController {
+class F18UFCViewController: PlaneViewController {
     @IBOutlet var osbLabel1: UILabel!
     @IBOutlet var osbLabel2: UILabel!
     @IBOutlet var osbLabel3: UILabel!
@@ -71,9 +71,9 @@ class F18ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 25, commandId: 3009), // UFC COM2 Push (30)
             Action(type: .pushButton, deviceId: 25, commandId: 3034, argument: -0.03), // UFC COM2 Decrease (31)
             
-            Action(type: .latched3way, deviceId: 25, commandId: 3016, argument: 1.0), // ADF 1 (32)
-            Action(type: .latched3way, deviceId: 25, commandId: 3016, argument: 0.0), // ADF OFF (33)
-            Action(type: .latched3way, deviceId: 25, commandId: 3016, argument: -1.0), // ADF 2 (34)
+            Action(type: .pushButton, deviceId: 25, commandId: 3016, argument: 1.0), // ADF 1 (32)
+            Action(type: .pushButton, deviceId: 25, commandId: 3016, argument: 0.0), // ADF OFF (33)
+            Action(type: .pushButton, deviceId: 25, commandId: 3016, argument: -1.0), // ADF 2 (34)
             Action(type: .pushButton, deviceId: 25, commandId: 3036, argument: -1), // COMM1 VOL Decrease (35)
             Action(type: .pushButton, deviceId: 25, commandId: 3036, argument: 1), // COMM1 VOL Increase (36)
             Action(type: .pushButton, deviceId: 25, commandId: 3038, argument: -1), // COMM2 VOL Decrease (37)

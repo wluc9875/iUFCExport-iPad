@@ -73,8 +73,8 @@ class JF17ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 46, commandId: 3225), // UFCP Button BLANKNUM (25)
             Action(type: .pushButton, deviceId: 46, commandId: 3228), // UFCP Button BLANKMODE1 (26)
             Action(type: .pushButton, deviceId: 46, commandId: 3229), // UFCP Button BLANKMODE2 (27)
-            Action(type: .momentary3Way, deviceId: 46, commandId: 3232, argument: -1.0), // FAST SELECT INC (28)
-            Action(type: .momentary3Way, deviceId: 46, commandId: 3232), // FAST SELECT DEC (29)
+            Action(type: .pushButton, deviceId: 46, commandId: 3232, argument: -1.0), // FAST SELECT INC (28)
+            Action(type: .pushButton, deviceId: 46, commandId: 3232), // FAST SELECT DEC (29)
         ]
         
         originalSwitchImages = [

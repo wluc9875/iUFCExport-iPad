@@ -18,7 +18,7 @@
 
 import UIKit
 
-class A10ViewController: PlaneViewController {
+class A10UFCViewController: PlaneViewController {
     @IBOutlet var steerImageView: UIImageView!
     @IBOutlet var dataImageView: UIImageView!
     @IBOutlet var selImageView: UIImageView!
@@ -53,16 +53,16 @@ class A10ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 8, commandId: 3035), // IDMRT (22)
             Action(type: .pushButton, deviceId: 8, commandId: 3016), // ENT (23)
             
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3020), // STEER Up (24)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3021, argument: -1.0), // STEER Down (25)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3022), // DATA Up (26)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3023, argument: -1.0), // DATA Down (27)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3024), // SEL Up (28)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3025, argument: -1.0), // SEL Down (29)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3026), // DEPR Up (30)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3027, argument: -1.0), // DEPR Down (31)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3029, argument: -1.0), // INTEN down (32)
-            Action(type: .momentary3Way, deviceId: 8, commandId: 3028),	// INTEN up (33)
+            Action(type: .pushButton, deviceId: 8, commandId: 3020), // STEER Up (24)
+            Action(type: .pushButton, deviceId: 8, commandId: 3021, argument: -1.0), // STEER Down (25)
+            Action(type: .pushButton, deviceId: 8, commandId: 3022), // DATA Up (26)
+            Action(type: .pushButton, deviceId: 8, commandId: 3023, argument: -1.0), // DATA Down (27)
+            Action(type: .pushButton, deviceId: 8, commandId: 3024), // SEL Up (28)
+            Action(type: .pushButton, deviceId: 8, commandId: 3025, argument: -1.0), // SEL Down (29)
+            Action(type: .pushButton, deviceId: 8, commandId: 3026), // DEPR Up (30)
+            Action(type: .pushButton, deviceId: 8, commandId: 3027, argument: -1.0), // DEPR Down (31)
+            Action(type: .pushButton, deviceId: 8, commandId: 3029, argument: -1.0), // INTEN down (32)
+            Action(type: .pushButton, deviceId: 8, commandId: 3028),	// INTEN up (33)
             
             Action(type: .pushButton, deviceId: 24, commandId: 3001), // MASTER CAUTION reset (34)
         ]

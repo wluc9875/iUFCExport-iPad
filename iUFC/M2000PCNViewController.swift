@@ -18,7 +18,7 @@
 
 import UIKit
 
-class M2000ViewController: PlaneViewController {
+class M2000PCNViewController: PlaneViewController {
     @IBOutlet var effButton: UIButton!
     @IBOutlet var insButton: UIButton!
     @IBOutlet var prepButton: UIButton!
@@ -114,7 +114,7 @@ class M2000ViewController: PlaneViewController {
                 let roundedRotator = (rotatorAsNumber * 10.0).rounded()
                 actions[18].argument = roundedRotator / 10.0
                 actions[19].argument = roundedRotator / 10.0
-                if let rotatorImageName = M2000ViewController.rotatorToImageView[roundedRotator] {
+                if let rotatorImageName = M2000PCNViewController.rotatorToImageView[roundedRotator] {
                     rotatorImage = UIImage(named: rotatorImageName)
                 }
             }

@@ -105,8 +105,8 @@ class PlaneViewController: UIViewController, DCSConnectionDelegate {
         }
         
         let action = actions[sender.tag]
-        print("\(action.deviceId) \(action.commandId) 0.0")
-        let message = "\(action.deviceId) \(action.commandId) 0.0\n"
+        print("\(action.deviceId) \(action.commandId) \(action.minimum)")
+        let message = "\(action.deviceId) \(action.commandId) \(action.minimum)\n"
         dcsConnection?.sendMessage(content: message)
     }
 }

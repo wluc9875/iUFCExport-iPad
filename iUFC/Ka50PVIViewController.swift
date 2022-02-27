@@ -18,7 +18,7 @@
 
 import UIKit
 
-class Ka50ViewController: PlaneViewController {
+class Ka50PVIViewController: PlaneViewController {
     @IBOutlet var line1Label: UILabel!
     @IBOutlet var line2Label: UILabel!
     @IBOutlet var point1Label: UILabel!
@@ -142,7 +142,7 @@ class Ka50ViewController: PlaneViewController {
                 let roundedRotator = (rotatorAsNumber * 10.0).rounded() / 10.0
                 actions[25].argument = roundedRotator
                 actions[26].argument = roundedRotator
-                if let rotatorImageName = Ka50ViewController.rotatorToImageView[roundedRotator] {
+                if let rotatorImageName = Ka50PVIViewController.rotatorToImageView[roundedRotator] {
                     rotatorImage = UIImage(named: rotatorImageName)
                 }
             }
