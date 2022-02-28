@@ -530,6 +530,10 @@
                                         <rect key="frame" x="480" y="447" width="138" height="141"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-qP-kKd" userLabel="MODE View">
+                                        <rect key="frame" x="694" y="449" width="138" height="141"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-Vd-iNj" userLabel="RWR">
                                         <rect key="frame" x="145" y="127" width="95" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -634,10 +638,34 @@
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="gGL-OT-lFW"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-qP-kKd" userLabel="MODE View">
-                                        <rect key="frame" x="694" y="449" width="138" height="141"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6VD-C5-rze" userLabel="c01line">
+                                        <rect key="frame" x="270" y="104" width="129" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="40"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KBp-vf-pZv" userLabel="c02line">
+                                        <rect key="frame" x="410" y="105" width="137" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="40"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySP-qW-bjU" userLabel="chline">
+                                        <rect key="frame" x="552" y="106" width="133" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="40"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgd-M8-YR8" userLabel="flline">
+                                        <rect key="frame" x="689" y="107" width="134" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="40"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -657,9 +685,13 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="c01Button" destination="tn3-kr-Btn" id="I65-hF-hik"/>
+                        <outlet property="c01Label" destination="6VD-C5-rze" id="pZj-2g-p81"/>
                         <outlet property="c02Button" destination="6Jc-Uh-HbN" id="Lsj-mT-WMW"/>
+                        <outlet property="c02Label" destination="KBp-vf-pZv" id="iTn-ba-1KY"/>
                         <outlet property="chButton" destination="63Q-gn-qDE" id="gK3-6L-brj"/>
+                        <outlet property="chLabel" destination="ySP-qW-bjU" id="Zk2-sp-UPv"/>
                         <outlet property="flButton" destination="R9L-mR-ejW" id="98X-9x-n01"/>
+                        <outlet property="flLabel" destination="qgd-M8-YR8" id="cnp-2m-mAo"/>
                         <outlet property="jettButton" destination="hme-ck-3Qh" id="bkQ-w4-1Xf"/>
                         <outlet property="jmrButton" destination="qyQ-h0-lmG" id="l9j-36-ez6"/>
                         <outlet property="modeRotatorImageView" destination="Eru-qP-kKd" id="OER-UQ-Uej"/>

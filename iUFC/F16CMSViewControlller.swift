@@ -29,6 +29,10 @@ class F16CMSViewControlller: PlaneViewController {
     @IBOutlet var c02Button: UIButton!
     @IBOutlet var chButton: UIButton!
     @IBOutlet var flButton: UIButton!
+    @IBOutlet var c01Label: UILabel!
+    @IBOutlet var c02Label: UILabel!
+    @IBOutlet var chLabel: UILabel!
+    @IBOutlet var flLabel: UILabel!
     
     static let prgmRotatorImageNames = [
         //0.0: nil, // default image
@@ -84,6 +88,11 @@ class F16CMSViewControlller: PlaneViewController {
         actions[7].argument = flOn ? 1.0 : 0.0
         let prgm = (Double(cmsSwitchStates[8])! * 10.0).rounded()
         let mode = (Double(cmsSwitchStates[9])! * 10.0).rounded()
+        
+        let c01Text = content["CMDS_O1_Amount"] ?? ""
+        let c02Text = content["CMDS_O2_Amount"] ?? ""
+        let chText = content["CMDS_CH_Amount"] ?? ""
+        let flText = content["CMDS_FL_Amount"] ?? ""
         DispatchQueue.main.async {
             self.rwrButton.isSelected = rwrOn
             self.jmrButton.isSelected = jmrOn
@@ -99,6 +108,11 @@ class F16CMSViewControlller: PlaneViewController {
             if let modeRotatorImageName = F16CMSViewControlller.modeRotatorImageNames[mode] {
                 self.modeRotatorImageView.image = UIImage(named: modeRotatorImageName)
             }
+            
+            self.c01Label.text = c01Text
+            self.c02Label.text = c02Text
+            self.chLabel.text = chText
+            self.flLabel.text = flText
         }
     }
 }
