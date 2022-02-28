@@ -94,7 +94,7 @@ class JF17ViewController: PlaneViewController {
     }
     
     override func updateDisplays(with content: [String: String]) {
-        let lights = content["lights"] ?? ""
+        let lights = (content["lights"] ?? "").split(separator: " ")
         let buttons: [UIButton] = [oapButton, mrkButton, puButton, hnsButton, apButton, fpmButton]
         let text1 = formatLine(number: 0, from: content)
         let text2 = formatLine(number: 1, from: content)
