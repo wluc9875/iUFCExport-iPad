@@ -527,121 +527,117 @@
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B6V-PK-gVW" userLabel="PRGM View">
-                                        <rect key="frame" x="483" y="433" width="138" height="141"/>
+                                        <rect key="frame" x="480" y="447" width="138" height="141"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-qP-kKd" userLabel="MODE View">
-                                        <rect key="frame" x="691" y="440" width="138" height="141"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-Vd-iNj" userLabel="RWR">
+                                        <rect key="frame" x="145" y="127" width="95" height="138"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2d-Vd-iNj" userLabel="RWR">
-                                        <rect key="frame" x="136" y="135" width="108" height="127"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-rwr"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="IHg-vB-cJB"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyQ-h0-lmG" userLabel="JMR">
-                                        <rect key="frame" x="135" y="299" width="108" height="127"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyQ-h0-lmG" userLabel="JMR">
+                                        <rect key="frame" x="153" y="293" width="68" height="141"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-jmr"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="CLM-y3-uec"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3R-jm-USr" userLabel="MWS">
-                                        <rect key="frame" x="135" y="463" width="108" height="127"/>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3R-jm-USr" userLabel="MWS">
+                                        <rect key="frame" x="156" y="461" width="69" height="135"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-mws"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="TiN-Ba-mcs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hme-ck-3Qh" userLabel="JETT">
-                                        <rect key="frame" x="290" y="462" width="108" height="127"/>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hme-ck-3Qh" userLabel="JETT">
+                                        <rect key="frame" x="292" y="453" width="91" height="159"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-jett"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="Wsr-ei-l5l"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tn3-kr-Btn" userLabel="01">
-                                        <rect key="frame" x="285" y="198" width="108" height="127"/>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tn3-kr-Btn" userLabel="01">
+                                        <rect key="frame" x="300" y="201" width="68" height="135"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-ch1"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="7TI-gI-Wqw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jc-Uh-HbN" userLabel="02">
-                                        <rect key="frame" x="423" y="198" width="108" height="127"/>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jc-Uh-HbN" userLabel="02">
+                                        <rect key="frame" x="443" y="201" width="71" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-ch2"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="Fev-wH-rrP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63Q-gn-qDE" userLabel="CH">
-                                        <rect key="frame" x="561" y="200" width="108" height="127"/>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63Q-gn-qDE" userLabel="CH">
+                                        <rect key="frame" x="578" y="201" width="78" height="135"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-ch"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="5Bw-yQ-B7B"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9L-mR-ejW" userLabel="FL">
-                                        <rect key="frame" x="704" y="202" width="108" height="127"/>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9L-mR-ejW" userLabel="FL">
+                                        <rect key="frame" x="723" y="203" width="71" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="f16/F16-CMS-fl"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="8nn-3C-m81"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omh-he-0r7" userLabel="PRGM-">
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Omh-he-0r7" userLabel="PRGM-">
                                         <rect key="frame" x="454" y="436" width="75" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="xK7-YI-WPd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbt-on-VLN" userLabel="PRGM+">
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbt-on-VLN" userLabel="PRGM+">
                                         <rect key="frame" x="562" y="445" width="75" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="uxt-GX-8Ah"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7G-1c-d96" userLabel="MODE-">
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7G-1c-d96" userLabel="MODE-">
                                         <rect key="frame" x="664" y="442" width="75" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="tgB-5I-bGS"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDl-No-EWM" userLabel="MODE+">
+                                    <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDl-No-EWM" userLabel="MODE+">
                                         <rect key="frame" x="793" y="444" width="75" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <connections>
                                             <action selector="buttonPushed:" destination="SVX-WS-jr6" eventType="touchDown" id="gGL-OT-lFW"/>
                                         </connections>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-qP-kKd" userLabel="MODE View">
+                                        <rect key="frame" x="694" y="449" width="138" height="141"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -659,6 +655,18 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="9A4-Hz-iGb"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="c01Button" destination="tn3-kr-Btn" id="I65-hF-hik"/>
+                        <outlet property="c02Button" destination="6Jc-Uh-HbN" id="Lsj-mT-WMW"/>
+                        <outlet property="chButton" destination="63Q-gn-qDE" id="gK3-6L-brj"/>
+                        <outlet property="flButton" destination="R9L-mR-ejW" id="98X-9x-n01"/>
+                        <outlet property="jettButton" destination="hme-ck-3Qh" id="bkQ-w4-1Xf"/>
+                        <outlet property="jmrButton" destination="qyQ-h0-lmG" id="l9j-36-ez6"/>
+                        <outlet property="modeRotatorImageView" destination="Eru-qP-kKd" id="OER-UQ-Uej"/>
+                        <outlet property="mwsButton" destination="Y3R-jm-USr" id="Qvn-Kh-hco"/>
+                        <outlet property="prgmRotatorImageView" destination="B6V-PK-gVW" id="1V7-Vf-kA7"/>
+                        <outlet property="rwrButton" destination="H2d-Vd-iNj" id="jVS-r5-I2y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uiE-os-fXp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1206,7 +1214,7 @@
                                             <action selector="buttonReleased:" destination="DKQ-D8-Ygt" eventType="touchUpOutside" id="ydc-ih-uPn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9T-FD-xnn" userLabel="DISPENSER MODE-">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9T-FD-xnn" userLabel="DISPENSER MODE-">
                                         <rect key="frame" x="52.5" y="399.5" width="164" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
@@ -4781,6 +4789,14 @@
         <image name="f16/COM2_PUSHED" width="108" height="108"/>
         <image name="f16/ENTR_PUSHED" width="114" height="116"/>
         <image name="f16/F16-CMS-background" width="987" height="613"/>
+        <image name="f16/F16-CMS-ch" width="73" height="137"/>
+        <image name="f16/F16-CMS-ch1" width="69" height="137"/>
+        <image name="f16/F16-CMS-ch2" width="70" height="132"/>
+        <image name="f16/F16-CMS-fl" width="67" height="135"/>
+        <image name="f16/F16-CMS-jett" width="94" height="160"/>
+        <image name="f16/F16-CMS-jmr" width="68" height="142"/>
+        <image name="f16/F16-CMS-mws" width="72" height="137"/>
+        <image name="f16/F16-CMS-rwr" width="74" height="138"/>
         <image name="f16/IFF_PUSHED" width="108" height="108"/>
         <image name="f16/LIST_PUSHED" width="108" height="108"/>
         <image name="f16/NUM0_PUSHED" width="114" height="116"/>
