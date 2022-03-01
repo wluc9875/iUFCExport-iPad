@@ -104,9 +104,13 @@ class F16CMSViewControlller: PanelViewController {
             self.flButton.isSelected = flOn
             if let prgmRotatorImageName = F16CMSViewControlller.prgmRotatorImageNames[prgm] {
                 self.prgmRotatorImageView.image = UIImage(named: prgmRotatorImageName)
+            } else {
+                self.prgmRotatorImageView.image = nil
             }
             if let modeRotatorImageName = F16CMSViewControlller.modeRotatorImageNames[mode] {
                 self.modeRotatorImageView.image = UIImage(named: modeRotatorImageName)
+            } else {
+                self.modeRotatorImageView.image = nil
             }
             
             self.c01Label.text = c01Text

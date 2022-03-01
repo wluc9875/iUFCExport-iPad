@@ -19,6 +19,27 @@
 import UIKit
 
 class A10CMSViewController: PanelViewController {
+    @IBOutlet var mwsImageView: UIImageView!
+    @IBOutlet var jmrImageView: UIImageView!
+    @IBOutlet var rwrImageView: UIImageView!
+    @IBOutlet var dispImageView: UIImageView!
+    @IBOutlet var modeImageView: UIImageView!
+    @IBOutlet var valueImageView: UIImageView!
+    @IBOutlet var jtsnButton: UIButton!
+    @IBOutlet var txtUpLabel: UILabel!
+    @IBOutlet var txtDown1Label: UILabel!
+    @IBOutlet var txtDown2Label: UILabel!
+    @IBOutlet var txtDown3Label: UILabel!
+    @IBOutlet var txtDown4Label: UILabel!
+    
+    static let modeImagesNames = [
+        //0.0: nil, // default image
+        1.0: "a10/A10-CMS-mode1",
+        2.0: "a10/A10-CMS-mode2",
+        3.0: "a10/A10-CMS-mode3",
+        4.0: "a10/A10-CMS-mode4",
+    ]
+    
     override func initActions() {
         actions = [
             //TODO
@@ -41,5 +62,74 @@ class A10CMSViewController: PanelViewController {
             Action(type: .rotatorCCW, deviceId: 4, commandId: 3018, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.4), // MODE- (16)
             Action(type: .rotatorCW, deviceId: 4, commandId: 3018, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.4), // MODE+ (17)
         ]
+        
+        originalSwitchImages = [
+            5: "a10/A10-CMS-mws1",
+            7: "a10/A10-CMS-jammer1",
+            9: "a10/A10-CMS-rwr1",
+            11: "a10/A10-CMS-disp1",
+            12: "",
+            13: "",
+        ]
+        
+        alternateSwitchImages = [
+            5: "a10/A10-CMS-mws2",
+            7: "a10/A10-CMS-jammer2",
+            9: "a10/A10-CMS-rwr2",
+            11: "a10/A10-CMS-disp2",
+            12: "a10/A10-CMS-nxtd",
+            13: "a10/A10-CMS-nxtu",
+        ]
+        
+        actionToViewDict = [
+            5: mwsImageView,
+            7: jmrImageView,
+            9: rwrImageView,
+            11: dispImageView,
+            12: valueImageView,
+            13: valueImageView,
+        ]
+    }
+    
+    override func updateDisplays(with content: [String: String]) {
+        let cmsSwitchStates = (content["cmsswitches"] ?? "").split(separator: " ")
+        let mwsOn = (Double(cmsSwitchStates[0])! * 10.0).rounded()
+        let jmrOn = (Double(cmsSwitchStates[1])! * 10.0).rounded()
+        let rwrOn = (Double(cmsSwitchStates[2])! * 10.0).rounded()
+        let dispOn = (Double(cmsSwitchStates[3])! * 10.0).rounded()
+        let jettOn = Double(cmsSwitchStates[4])!
+        let modePosition = (Double(cmsSwitchStates[5])! * 10.0).rounded()
+        
+        let txtUp = content["txt_UP"] ?? ""
+        let txtDown1 = content["txt_DOWN1"] ?? ""
+        let txtDown2 = content["txt_DOWN2"] ?? ""
+        let txtDown3 = content["txt_DOWN3"] ?? ""
+        let txtDown4 = content["txt_DOWN4"] ?? ""
+        
+        actions[4].argument = mwsOn / 10.0
+        actions[6].argument = jmrOn / 10.0
+        actions[8].argument = rwrOn / 10.0
+        actions[10].argument = dispOn / 10.0
+        actions[15].argument = jettOn
+        actions[16].argument = modePosition / 10.0
+        actions[17].argument = modePosition / 10.0
+        
+        DispatchQueue.main.async {
+            self.mwsImageView.image = mwsOn > 0 ? UIImage(named: "a10/A10-CMS-mws1") : nil
+            self.jmrImageView.image = jmrOn > 0 ? UIImage(named: "a10/A10-CMS-jammer1") : nil
+            self.rwrImageView.image = rwrOn > 0 ? UIImage(named: "a10/A10-CMS-rwr1") : nil
+            self.dispImageView.image = dispOn > 0 ? UIImage(named: "a10/A10-CMS-disp1") : nil
+            self.jtsnButton.isSelected = jettOn > 0
+            if let modeImageName = A10CMSViewController.modeImagesNames[modePosition] {
+                self.modeImageView.image = UIImage(named: modeImageName)
+            } else {
+                self.modeImageView.image = nil
+            }
+            self.txtUpLabel.text = txtUp
+            self.txtDown1Label.text = txtDown1
+            self.txtDown2Label.text = txtDown2
+            self.txtDown3Label.text = txtDown3
+            self.txtDown4Label.text = txtDown4
+        }
     }
 }

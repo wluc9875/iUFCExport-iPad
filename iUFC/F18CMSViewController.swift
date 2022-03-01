@@ -19,6 +19,9 @@
 import UIKit
 
 class F18CMSViewController: PanelViewController {
+    @IBOutlet var dispImageView: UIImageView!
+    @IBOutlet var ecmImageView: UIImageView!
+    
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 54, commandId: 3003, argument: 1.0), // JETT switch (0)

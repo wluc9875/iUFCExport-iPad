@@ -19,6 +19,9 @@
 import UIKit
 
 class Ka50CMSViewController: PanelViewController {
+    @IBOutlet var sideImageView: UIImageView!
+    @IBOutlet var modeButton: UIButton!
+    
     override func initActions() {
         actions = [
             Action(type: .rotatorCCW, deviceId: 22, commandId: 3001, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.2), // DISP SIDE- (0)

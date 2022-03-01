@@ -19,6 +19,13 @@
 import UIKit
 
 class AJS37CMSViewController: PanelViewController {
+    @IBOutlet var jammerModeImageView: UIImageView!
+    @IBOutlet var jammerBandImageView: UIImageView!
+    @IBOutlet var cmsModeImageView: UIImageView!
+    @IBOutlet var streakImageView: UIImageView!
+    @IBOutlet var rwrImageView: UIImageView!
+    @IBOutlet var chflImageView: UIImageView!
+    
     override func initActions() {
         actions = [
             Action(type: .rotatorCCW, deviceId: 28, commandId: 3024, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.4), // Jammer Mode - switch (0)
