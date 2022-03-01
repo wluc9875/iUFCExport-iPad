@@ -18,7 +18,7 @@
 
 import UIKit
 
-class A10CMSViewController: PlaneViewController {
+class A10CMSViewController: PanelViewController {
     override func initActions() {
         actions = [
             //TODO

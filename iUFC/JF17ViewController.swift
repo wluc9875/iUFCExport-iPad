@@ -18,7 +18,7 @@
 
 import UIKit
 
-class JF17ViewController: PlaneViewController {
+class JF17ViewController: PanelViewController {
     @IBOutlet var osbLabel1: UILabel!
     @IBOutlet var osbLabel2: UILabel!
     @IBOutlet var osbLabel3: UILabel!

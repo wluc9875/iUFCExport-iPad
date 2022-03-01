@@ -18,7 +18,7 @@
 
 import UIKit
 
-class M2000CMSViewController: PlaneViewController {
+class M2000CMSViewController: PanelViewController {
     override func initActions() {
         actions = [
             Action(type: .rotatorCCW, deviceId: 13, commandId: 3605, argument: 0.0, increment: 1.0, minimum: -1.0, maximum: 1.0), // ECM MODE- (0)

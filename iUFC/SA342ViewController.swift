@@ -18,7 +18,7 @@
 
 import UIKit
 
-class SA342ViewController: PlaneViewController {
+class SA342ViewController: PanelViewController {
     @IBOutlet var dopplerRotator: UIImageView!
     @IBOutlet var parameterRotator: UIImageView!
     @IBOutlet var line1Label: UILabel!

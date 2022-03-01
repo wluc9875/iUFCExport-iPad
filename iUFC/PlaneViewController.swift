@@ -19,34 +19,29 @@
 import UIKit
 import Network
 
-class PlaneViewController: UIViewController, DCSConnectionDelegate {
-    var actions = [Action]()
-    var originalSwitchImages = [Int: String]()
-    var alternateSwitchImages = [Int: String]()
-    var actionToViewDict = [Int: UIImageView]()
-    
-    //let dcsConnection = DCSConnection()
+class PlaneViewController: UITabBarController, DCSConnectionDelegate {    
     var dcsConnection: DCSConnection?
-        
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        initActions()
-    }
     
     override func viewWillAppear(_ animated: Bool) {
         dcsConnection = DCSConnection()
         dcsConnection?.delegate = self
+        if let panelViewControllers = self.viewControllers {
+            for vc in panelViewControllers {
+                if let panelVC = vc as? PanelViewController {
+                    panelVC.dcsConnection = dcsConnection;
+                }
+            }
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         dcsConnection?.delegate = nil
         dcsConnection = nil
     }
-    
-    func initActions() {}
-    
+        
     func processIncomingMessage(_ content: String) {
         var contentOfDisplays = [String: String]()
+        print(content)
         let lines = content.components(separatedBy: "\n")
         var i = 0
         while i < lines.count {
@@ -61,52 +56,14 @@ class PlaneViewController: UIViewController, DCSConnectionDelegate {
     }
     
     func updateDisplays(with content: [String: String]) {
-    }
-    
-    @IBAction func buttonPushed(_ sender: UIButton) {
-        if let imageName = alternateSwitchImages[sender.tag] {
-            if let imageView = actionToViewDict[sender.tag] {
-                if imageName.isEmpty {
-                    imageView.image = nil
-                } else {
-                    imageView.image = UIImage(named: imageName)
+        DispatchQueue.main.async {
+            if let panelViewControllers = self.viewControllers {
+                for vc in panelViewControllers {
+                    if let panelVC = vc as? PanelViewController {
+                        panelVC.updateDisplays(with: content);
+                    }
                 }
             }
         }
-        let action = actions[sender.tag]
-        
-        if (action.type == .toggleButton) {
-            action.toggleArgument()
-        } else if (action.type == .rotatorCW) {
-            let actionCCW = actions[sender.tag - 1]
-            action.increaseArgument()
-            actionCCW.increaseArgument()
-        } else if (action.type == .rotatorCCW) {
-           let actionCW = actions[sender.tag + 1]
-           action.decreaseArgument()
-           actionCW.decreaseArgument()
-       }
-        
-        print("\(action.deviceId) \(action.commandId) \(action.argument)")
-        let message = "\(action.deviceId) \(action.commandId) \(action.argument)\n"
-        dcsConnection?.sendMessage(content: message)
-    }
-    
-    @IBAction func buttonReleased(_ sender: UIButton) {
-        // back to normal image
-        if let imageName = originalSwitchImages[sender.tag] {
-            if let imageView = actionToViewDict[sender.tag] {
-                if imageName.isEmpty {
-                    imageView.image = nil
-                } else {
-                    imageView.image = UIImage(named: imageName)
-                }
-            }
-        }
-        
-        let action = actions[sender.tag]
-        print("\(action.deviceId) \(action.commandId) \(action.minimum)")
-        let message = "\(action.deviceId) \(action.commandId) \(action.minimum)\n"
-        dcsConnection?.sendMessage(content: message)
     }
 }

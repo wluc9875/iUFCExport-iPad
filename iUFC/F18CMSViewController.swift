@@ -18,7 +18,7 @@
 
 import UIKit
 
-class F18CMSViewController: PlaneViewController {
+class F18CMSViewController: PanelViewController {
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 54, commandId: 3003, argument: 1.0), // JETT switch (0)

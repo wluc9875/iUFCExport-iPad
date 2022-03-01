@@ -18,7 +18,7 @@
 
 import UIKit
 
-class AV8ViewController: PlaneViewController {
+class AV8ViewController: PanelViewController {
     @IBOutlet var oduLabel1: UILabel!
     @IBOutlet var oduLabel2: UILabel!
     @IBOutlet var oduLabel3: UILabel!

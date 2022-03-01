@@ -18,7 +18,7 @@
 
 import UIKit
 
-class Ka50PVIViewController: PlaneViewController {
+class Ka50PVIViewController: PanelViewController {
     @IBOutlet var line1Label: UILabel!
     @IBOutlet var line2Label: UILabel!
     @IBOutlet var point1Label: UILabel!

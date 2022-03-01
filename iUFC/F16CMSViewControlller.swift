@@ -18,7 +18,7 @@
 
 import UIKit
 
-class F16CMSViewControlller: PlaneViewController {
+class F16CMSViewControlller: PanelViewController {
     @IBOutlet var prgmRotatorImageView: UIImageView!
     @IBOutlet var modeRotatorImageView: UIImageView!
     @IBOutlet var rwrButton: UIButton!

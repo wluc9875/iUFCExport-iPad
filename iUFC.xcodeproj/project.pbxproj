@@ -34,6 +34,7 @@
 		FDCB895127CB78AE002C6B16 /* Ka50CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895027CB78AE002C6B16 /* Ka50CMSViewController.swift */; };
 		FDCB895327CB790D002C6B16 /* M2000CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895227CB790D002C6B16 /* M2000CMSViewController.swift */; };
 		FDCB895527CB794D002C6B16 /* A10CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */; };
+		FDCB895B27CE0FD1002C6B16 /* PanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		FDCB895027CB78AE002C6B16 /* Ka50CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50CMSViewController.swift; sourceTree = "<group>"; };
 		FDCB895227CB790D002C6B16 /* M2000CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000CMSViewController.swift; sourceTree = "<group>"; };
 		FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10CMSViewController.swift; sourceTree = "<group>"; };
+		FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				FD7C92D625A2220000FC3DCB /* SceneDelegate.swift */,
 				FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */,
 				FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */,
+				FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */,
 				FD8240C626061A4A009CD3E3 /* A10UFCViewController.swift */,
 				FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */,
 				FDB12F29261ED92800B972BE /* AJS37CK37ViewController.swift */,
@@ -219,6 +222,7 @@
 				FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */,
 				FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */,
 				FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */,
+				FDCB895B27CE0FD1002C6B16 /* PanelViewController.swift in Sources */,
 				FDA0A3A127CA6C6D0053A139 /* AJS37CMSViewController.swift in Sources */,
 				FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */,
 				FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */,

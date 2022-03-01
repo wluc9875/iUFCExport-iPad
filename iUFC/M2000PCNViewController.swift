@@ -18,7 +18,7 @@
 
 import UIKit
 
-class M2000PCNViewController: PlaneViewController {
+class M2000PCNViewController: PanelViewController {
     @IBOutlet var effButton: UIButton!
     @IBOutlet var insButton: UIButton!
     @IBOutlet var prepButton: UIButton!

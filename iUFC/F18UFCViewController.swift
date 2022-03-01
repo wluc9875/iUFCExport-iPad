@@ -18,7 +18,7 @@
 
 import UIKit
 
-class F18UFCViewController: PlaneViewController {
+class F18UFCViewController: PanelViewController {
     @IBOutlet var osbLabel1: UILabel!
     @IBOutlet var osbLabel2: UILabel!
     @IBOutlet var osbLabel3: UILabel!

@@ -68,7 +68,7 @@
         <!--F16 Tab Bar Controller-->
         <scene sceneID="LFJ-Tb-W76">
             <objects>
-                <tabBarController storyboardIdentifier="F-16C" automaticallyAdjustsScrollViewInsets="NO" id="L9G-NN-86k" userLabel="F16 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="F-16C" automaticallyAdjustsScrollViewInsets="NO" id="L9G-NN-86k" userLabel="F16 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4Hm-t3-L3M">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -707,7 +707,7 @@
         <!--F18 Tab Bar Controller-->
         <scene sceneID="uJj-j0-YUP">
             <objects>
-                <tabBarController storyboardIdentifier="FA-18C" id="peF-bh-m3H" userLabel="F18 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="FA-18C" id="peF-bh-m3H" userLabel="F18 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="glu-Hv-UXL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1303,16 +1303,33 @@
             </objects>
             <point key="canvasLocation" x="2075.9765625" y="790.625"/>
         </scene>
+        <!--AV8 Tab Bar Controller-->
+        <scene sceneID="bI7-Wi-y2L">
+            <objects>
+                <tabBarController storyboardIdentifier="AV8-BNA" id="Cev-fG-hdm" userLabel="AV8 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="StR-nz-4V7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9lB-ta-rAV" kind="relationship" relationship="viewControllers" id="Tmg-TT-Trc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCe-ua-Asf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2754" y="73"/>
+        </scene>
         <!--AV8 View Controller-->
         <scene sceneID="6jd-pn-0ek">
             <objects>
-                <viewController storyboardIdentifier="AV8-BNA" id="9lB-ta-rAV" userLabel="AV8 View Controller" customClass="AV8ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9lB-ta-rAV" userLabel="AV8 View Controller" customClass="AV8ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Yr-4T-iIZ">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Agu-2M-s88">
-                                <rect key="frame" x="0.0" y="70.5" width="1024" height="647"/>
+                                <rect key="frame" x="0.0" y="45.5" width="1024" height="647"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AV8/AV8-UFC-ODU-background" translatesAutoresizingMaskIntoConstraints="NO" id="cnO-xf-3Dr">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="647"/>
@@ -1761,6 +1778,7 @@
                             <constraint firstItem="Agu-2M-s88" firstAttribute="centerX" secondItem="Ami-30-V5K" secondAttribute="centerX" id="dk5-Q0-Wks"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="UFC" id="avb-iF-o93"/>
                     <connections>
                         <outlet property="com1Label" destination="fHf-Xr-TjR" id="dT2-aZ-UJt"/>
                         <outlet property="com2Label" destination="H6k-X9-hrK" id="xjD-6W-PRT"/>
@@ -1777,10 +1795,27 @@
             </objects>
             <point key="canvasLocation" x="3472" y="73"/>
         </scene>
+        <!--JF17 Tab Bar Controller-->
+        <scene sceneID="frx-0l-TO4">
+            <objects>
+                <tabBarController storyboardIdentifier="JF17" id="o1v-9g-TuG" userLabel="JF17 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7cK-6u-4Hs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ctB-td-UhO" kind="relationship" relationship="viewControllers" id="dkT-nW-44h"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SDq-cj-60i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4140" y="63"/>
+        </scene>
         <!--JF17 View Controller-->
         <scene sceneID="7QX-vT-6Cf">
             <objects>
-                <viewController storyboardIdentifier="JF17" id="ctB-td-UhO" userLabel="JF17 View Controller" customClass="JF17ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ctB-td-UhO" userLabel="JF17 View Controller" customClass="JF17ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a3m-Gb-oy5">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2145,6 +2180,7 @@
                             <constraint firstItem="t9o-9Y-8JJ" firstAttribute="centerX" secondItem="qcm-Cl-4oZ" secondAttribute="centerX" id="FIM-At-PlW"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="UFC" id="IqJ-Ra-Cgv"/>
                     <connections>
                         <outlet property="apButton" destination="fwR-95-e8I" id="bZn-Pn-ggB"/>
                         <outlet property="fastSelectImageView" destination="po2-7v-bEq" id="kBn-df-Jxq"/>
@@ -2166,7 +2202,7 @@
         <!--AJS37 Tab Bar Controller-->
         <scene sceneID="DCR-dt-t5I">
             <objects>
-                <tabBarController storyboardIdentifier="AJS37" id="D5P-71-Lwa" userLabel="AJS37 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="AJS37" id="D5P-71-Lwa" userLabel="AJS37 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3dn-BJ-TUV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2696,7 +2732,7 @@
         <!--KA50 Tab Bar Controller-->
         <scene sceneID="2oe-Is-Ah2">
             <objects>
-                <tabBarController storyboardIdentifier="KA50" id="Ngb-Sv-cf6" userLabel="KA50 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="KA50" id="Ngb-Sv-cf6" userLabel="KA50 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eQV-pn-icW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3233,7 +3269,7 @@
         <!--M2000 Tab Bar Controller-->
         <scene sceneID="XKV-bt-Rua">
             <objects>
-                <tabBarController storyboardIdentifier="M-2000C" id="5JW-NZ-fbc" userLabel="M2000 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="M-2000C" id="5JW-NZ-fbc" userLabel="M2000 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KdC-hv-ILJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -3734,7 +3770,7 @@
         <!--A10 Tab Bar Controller-->
         <scene sceneID="tuf-gT-a1i">
             <objects>
-                <tabBarController storyboardIdentifier="A-10C" id="zgj-MF-f8p" userLabel="A10 Tab Bar Controller" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="A-10C" id="zgj-MF-f8p" userLabel="A10 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oHY-ak-F1F">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -4402,10 +4438,27 @@
             </objects>
             <point key="canvasLocation" x="5490.8203125" y="3811.71875"/>
         </scene>
+        <!--SA342 Tab Bar Controller-->
+        <scene sceneID="il0-P3-bOV">
+            <objects>
+                <tabBarController storyboardIdentifier="SA342" id="5Hc-VF-4KO" userLabel="SA342 Tab Bar Controller" customClass="PlaneViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="98r-dc-Src">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="IXH-CM-ifG" kind="relationship" relationship="viewControllers" id="HC7-YF-T7p"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OyE-hL-ArZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5672" y="87"/>
+        </scene>
         <!--SA342 View Controller-->
         <scene sceneID="cbh-17-H87">
             <objects>
-                <viewController storyboardIdentifier="SA342" id="IXH-CM-ifG" userLabel="SA342 View Controller" customClass="SA342ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IXH-CM-ifG" userLabel="SA342 View Controller" customClass="SA342ViewController" customModule="iUFC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sjm-Q3-JPE">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -4639,6 +4692,7 @@
                         <viewLayoutGuide key="safeArea" id="yzh-y1-f9b"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="NADIR" id="Za9-oB-gVC"/>
                     <connections>
                         <outlet property="dopplerRotator" destination="pbf-3r-udU" id="kTS-cG-H85"/>
                         <outlet property="line1Label" destination="Uxt-VK-RsH" id="NTz-Xm-hMb"/>

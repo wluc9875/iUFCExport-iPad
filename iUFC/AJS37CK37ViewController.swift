@@ -18,7 +18,7 @@
 
 import UIKit
 
-class AJS37CK37ViewController: PlaneViewController {
+class AJS37CK37ViewController: PanelViewController {
     @IBOutlet var dataLabel1: UILabel!
     @IBOutlet var dataLabel2: UILabel!
     @IBOutlet var dataLabel3: UILabel!

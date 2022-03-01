@@ -18,7 +18,7 @@
 
 import UIKit
 
-class AJS37CMSViewController: PlaneViewController {
+class AJS37CMSViewController: PanelViewController {
     override func initActions() {
         actions = [
             Action(type: .rotatorCCW, deviceId: 28, commandId: 3024, argument: 0.0, increment: 0.1, minimum: 0.0, maximum: 0.4), // Jammer Mode - switch (0)

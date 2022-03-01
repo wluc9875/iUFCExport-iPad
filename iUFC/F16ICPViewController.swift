@@ -19,7 +19,7 @@
 import UIKit
 import Network
 
-class F16ICPViewController: PlaneViewController {    
+class F16ICPViewController: PanelViewController {    
     @IBOutlet var flirImageView: UIImageView!
     @IBOutlet var dedImageView: UIImageView!
     @IBOutlet var driftImageView: UIImageView!

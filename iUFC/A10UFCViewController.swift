@@ -18,7 +18,7 @@
 
 import UIKit
 
-class A10UFCViewController: PlaneViewController {
+class A10UFCViewController: PanelViewController {
     @IBOutlet var steerImageView: UIImageView!
     @IBOutlet var dataImageView: UIImageView!
     @IBOutlet var selImageView: UIImageView!
