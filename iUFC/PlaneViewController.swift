@@ -60,7 +60,9 @@ class PlaneViewController: UITabBarController, DCSConnectionDelegate {
             if let panelViewControllers = self.viewControllers {
                 for vc in panelViewControllers {
                     if let panelVC = vc as? PanelViewController {
-                        panelVC.updateDisplays(with: content);
+                        if panelVC.isViewLoaded {
+                            panelVC.updateDisplays(with: content);
+                        }
                     }
                 }
             }

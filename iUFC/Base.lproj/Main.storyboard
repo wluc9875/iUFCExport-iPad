@@ -3155,6 +3155,15 @@
                                             <action selector="buttonPushed:" destination="YpM-5F-yoX" eventType="touchDown" id="VEt-D8-EMk"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apl-1F-c9W" userLabel="MODE">
+                                        <rect key="frame" x="226" y="158" width="96" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="selected" image="ka50/KA50-CMS-quant"/>
+                                        <connections>
+                                            <action selector="buttonPushed:" destination="YpM-5F-yoX" eventType="touchDown" id="Wnx-Pl-ghZ"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5z-Qx-JTl" userLabel="BURST">
                                         <rect key="frame" x="33" y="239" width="114" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -3215,15 +3224,27 @@
                                             <action selector="buttonReleased:" destination="YpM-5F-yoX" eventType="touchUpInside" id="d9H-3n-AAJ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Apl-1F-c9W" userLabel="MODE">
-                                        <rect key="frame" x="226" y="158" width="96" height="45"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hj5-Qo-F1A" userLabel="digits">
+                                        <rect key="frame" x="86" y="22" width="141" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="selected" image="ka50/KA50-CMS-quant"/>
-                                        <connections>
-                                            <action selector="buttonPushed:" destination="YpM-5F-yoX" eventType="touchDown" id="Wnx-Pl-ghZ"/>
-                                        </connections>
-                                    </button>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="72"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2eF-c3-5DG" userLabel="leftSide">
+                                        <rect key="frame" x="8" y="20" width="46" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="92"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxW-tv-Td1" userLabel="rightSide">
+                                        <rect key="frame" x="218" y="17" width="46" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="92"/>
+                                        <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -3241,7 +3262,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="CMS" id="0xq-si-QFd"/>
                     <connections>
+                        <outlet property="digitsLabel" destination="hj5-Qo-F1A" id="dKT-h7-Uaw"/>
+                        <outlet property="leftSideLabel" destination="2eF-c3-5DG" id="aOn-Jg-Rk0"/>
                         <outlet property="modeButton" destination="Apl-1F-c9W" id="NWF-cH-riE"/>
+                        <outlet property="rightSideLabel" destination="oxW-tv-Td1" id="N9s-7t-kMb"/>
                         <outlet property="sideImageView" destination="kJo-6T-kYY" id="sKR-G6-UqI"/>
                     </connections>
                 </viewController>

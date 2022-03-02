@@ -29,7 +29,8 @@ class PanelViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        initActions()
+        initActions();
+        dcsConnection?.sendMessage(content: "999 1 1\n")
     }
     
     func initActions() {}

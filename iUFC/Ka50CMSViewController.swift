@@ -21,6 +21,15 @@ import UIKit
 class Ka50CMSViewController: PanelViewController {
     @IBOutlet var sideImageView: UIImageView!
     @IBOutlet var modeButton: UIButton!
+    @IBOutlet var digitsLabel: UILabel!
+    @IBOutlet var leftSideLabel: UILabel!
+    @IBOutlet var rightSideLabel: UILabel!
+    
+    static let sideImagesNames = [
+        //0.0: nil, // default image
+        1.0: "ka50/KA50-CMS-sideB",
+        2.0: "ka50/KA50-CMS-sideR",
+    ]
     
     override func initActions() {
         actions = [
@@ -34,5 +43,32 @@ class Ka50CMSViewController: PanelViewController {
             Action(type: .pushButton, deviceId: 22, commandId: 3009, argument: 1.0), // STOP switch (7)
             Action(type: .pushButton, deviceId: 22, commandId: 3007, argument: 1.0), // START switch (8)
         ]
+    }
+    
+    override func updateDisplays(with content: [String: String]) {
+        let cmsSwitchStates = (content["cmsswitches"] ?? "").split(separator: " ")
+        let dispSide = (Double(cmsSwitchStates[0])! * 10.0).rounded()
+        let lightL = (Double(cmsSwitchStates[1])! * 10.0).rounded()
+        let lightR = (Double(cmsSwitchStates[2])! * 10.0).rounded()
+        let modePosition = (Double(cmsSwitchStates[3])! * 10.0).rounded()
+        
+        let digits = content["txt_digits"] ?? ""
+        
+        actions[0].argument = dispSide / 10.0
+        actions[1].argument = dispSide / 10.0
+        actions[2].argument = modePosition / 10.0
+        
+        DispatchQueue.main.async {
+            if let sideImageName = Ka50CMSViewController.sideImagesNames[dispSide] {
+                self.sideImageView.image = UIImage(named: sideImageName)
+            } else {
+                self.sideImageView.image = nil
+            }
+            self.modeButton.isSelected = modePosition > 0
+
+            self.digitsLabel.text = digits
+            self.leftSideLabel.isHidden = !(lightL > 0)
+            self.rightSideLabel.isHidden = !(lightR > 0)
+        }
     }
 }

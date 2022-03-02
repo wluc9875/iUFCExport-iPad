@@ -22,6 +22,20 @@ class F18CMSViewController: PanelViewController {
     @IBOutlet var dispImageView: UIImageView!
     @IBOutlet var ecmImageView: UIImageView!
     
+    static let dispImagesNames = [
+        //0.0: nil, // default image
+        1.0: "F18/F18-CMS-dispenser1",
+        2.0: "F18/F18-CMS-dispenser2",
+    ]
+    
+    static let ecmImagesNames = [
+        //0.0: nil, // default image
+        1.0: "F18/F18-CMS-ecm1",
+        2.0: "F18/F18-CMS-ecm2",
+        3.0: "F18/F18-CMS-ecm3",
+        4.0: "F18/F18-CMS-ecm4",
+    ]
+    
     override func initActions() {
         actions = [
             Action(type: .pushButton, deviceId: 54, commandId: 3003, argument: 1.0), // JETT switch (0)
@@ -30,5 +44,27 @@ class F18CMSViewController: PanelViewController {
             Action(type: .pushButton, deviceId: 66, commandId: 3002, argument: -1.0), // ECM- switch (3)
             Action(type: .pushButton, deviceId: 66, commandId: 3002, argument: 1.0), // ECM+ switch (4)
         ]
+    }
+    
+    override func updateDisplays(with content: [String: String]) {
+        let cmsSwitchStates = (content["cmsswitches"] ?? "").split(separator: " ")
+        let dispPosition = (Double(cmsSwitchStates[0])! * 10.0).rounded()
+        let ecmPosition = (Double(cmsSwitchStates[1])! * 10.0).rounded()
+        
+        actions[1].argument = dispPosition / 10.0
+        actions[2].argument = dispPosition / 10.0
+        
+        DispatchQueue.main.async {
+            if let dispImageName = F18CMSViewController.dispImagesNames[dispPosition] {
+                self.dispImageView.image = UIImage(named: dispImageName)
+            } else {
+                self.dispImageView.image = nil
+            }
+            if let ecmImageName = F18CMSViewController.ecmImagesNames[ecmPosition] {
+                self.ecmImageView.image = UIImage(named: ecmImageName)
+            } else {
+                self.ecmImageView.image = nil
+            }
+        }
     }
 }
