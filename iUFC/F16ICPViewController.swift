@@ -19,7 +19,7 @@
 import UIKit
 import Network
 
-class F16ICPViewController: PlaneViewController {    
+class F16ICPViewController: PanelViewController {    
     @IBOutlet var flirImageView: UIImageView!
     @IBOutlet var dedImageView: UIImageView!
     @IBOutlet var driftImageView: UIImageView!
@@ -47,19 +47,19 @@ class F16ICPViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 17, commandId: 3017), // ICP Button RCL (16)
             Action(type: .pushButton, deviceId: 17, commandId: 3016), // ICP Button ENTR (17)
             Action(type: .pushButton, deviceId: 17, commandId: 3024), // ICP Button WX (18)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3025), // ICP Button FLIR Up (19)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3026, argument: -1.0), // ICP Button FLIR Down (20)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3030), // ICP DED Increment (21)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3031, argument: -1.0), // ICP DED Decrement (22)
-            Action(type: .latched3way, deviceId: 17, commandId: 3028), // ICP Drift C/O (23)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3029, argument: -1.0), // ICP Warn Reset (24)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3032, argument: -1.0), // ICP Data Control Switch RTN (25)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3033), // ICP Data Control Switch SEQ (26)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3034), // ICP Data Control Switch Up (27)
-            Action(type: .momentary3Way, deviceId: 17, commandId: 3035, argument: -1.0), // ICP Data Control Switch Down (28)
-            Action(type: .latched3way, deviceId: 17, commandId: 3027, argument: 1.0), // ICP FLIR GAIN (29)
-            Action(type: .latched3way, deviceId: 17, commandId: 3027, argument: 0.0), // ICP FLIR LVL (30)
-            Action(type: .latched3way, deviceId: 17, commandId: 3027, argument: -1.0), // ICP FLIR AUTO (31)
+            Action(type: .pushButton, deviceId: 17, commandId: 3025), // ICP Button FLIR Up (19)
+            Action(type: .pushButton, deviceId: 17, commandId: 3026, argument: -1.0), // ICP Button FLIR Down (20)
+            Action(type: .pushButton, deviceId: 17, commandId: 3030), // ICP DED Increment (21)
+            Action(type: .pushButton, deviceId: 17, commandId: 3031, argument: -1.0), // ICP DED Decrement (22)
+            Action(type: .pushButton, deviceId: 17, commandId: 3028), // ICP Drift C/O (23)
+            Action(type: .pushButton, deviceId: 17, commandId: 3029, argument: -1.0), // ICP Warn Reset (24)
+            Action(type: .pushButton, deviceId: 17, commandId: 3032, argument: -1.0), // ICP Data Control Switch RTN (25)
+            Action(type: .pushButton, deviceId: 17, commandId: 3033), // ICP Data Control Switch SEQ (26)
+            Action(type: .pushButton, deviceId: 17, commandId: 3034), // ICP Data Control Switch Up (27)
+            Action(type: .pushButton, deviceId: 17, commandId: 3035, argument: -1.0), // ICP Data Control Switch Down (28)
+            Action(type: .pushButton, deviceId: 17, commandId: 3027, argument: 1.0), // ICP FLIR GAIN (29)
+            Action(type: .pushButton, deviceId: 17, commandId: 3027, argument: 0.0), // ICP FLIR LVL (30)
+            Action(type: .pushButton, deviceId: 17, commandId: 3027, argument: -1.0), // ICP FLIR AUTO (31)
             Action(type: .pushButton, deviceId: 17, commandId: 3040, argument: 1), // SYM Increase (32)
             Action(type: .pushButton, deviceId: 17, commandId: 3040, argument: -1), // SYM Decrease (33)
             Action(type: .pushButton, deviceId: 17, commandId: 3042, argument: 1), // DEPR RETL Increase (34)
@@ -68,7 +68,7 @@ class F16ICPViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 17, commandId: 3044, argument: -1), // BRT Decrease (37)
             Action(type: .pushButton, deviceId: 17, commandId: 3046, argument: 1), // CONT Increase (38)
             Action(type: .pushButton, deviceId: 17, commandId: 3046, argument: -1), // CONT Decrease (39)
-            Action(type: .latched3way, deviceId: 17, commandId: 3028, argument: 0.0), // ICP Drift Normal (40)
+            Action(type: .pushButton, deviceId: 17, commandId: 3028, argument: 0.0), // ICP Drift Normal (40)
         ]
         
         originalSwitchImages = [

@@ -10,10 +10,10 @@
 		FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F425AF81E400FCEC89 /* DCSConnection.swift */; };
 		FD2216F825AF8C5C00FCEC89 /* DCSConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */; };
 		FD24A1C825DF0814009D357F /* Assets License.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD24A1C725DF0814009D357F /* Assets License.txt */; };
-		FD3E033E26DB7271005E77EE /* M2000ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E033D26DB7271005E77EE /* M2000ViewController.swift */; };
-		FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */; };
-		FD4FFF1225BC2FE8006B3772 /* F16TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */; };
-		FD5AA67B25A7AB00006D98B1 /* F18ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */; };
+		FD3E033E26DB7271005E77EE /* M2000PCNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3E033D26DB7271005E77EE /* M2000PCNViewController.swift */; };
+		FD48A6BB2646B27300FB3FB0 /* Ka50PVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48A6BA2646B27300FB3FB0 /* Ka50PVIViewController.swift */; };
+		FD4FFF1225BC2FE8006B3772 /* F16CMSViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */; };
+		FD5AA67B25A7AB00006D98B1 /* F18UFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */; };
 		FD6CA7A625A9D82100BBC394 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */; };
 		FD6CA7AA25A9DC4800BBC394 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */; };
 		FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C92D425A2220000FC3DCB /* AppDelegate.swift */; };
@@ -24,21 +24,27 @@
 		FD7C92E125A2220100FC3DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7C92DF25A2220100FC3DCB /* LaunchScreen.storyboard */; };
 		FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CD17525B244EC0013D55A /* SA342ViewController.swift */; };
 		FD7CD17925B2454B0013D55A /* JF17ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7CD17825B2454B0013D55A /* JF17ViewController.swift */; };
-		FD8240C726061A4A009CD3E3 /* A10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8240C626061A4A009CD3E3 /* A10ViewController.swift */; };
+		FD8240C726061A4A009CD3E3 /* A10UFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8240C626061A4A009CD3E3 /* A10UFCViewController.swift */; };
 		FD9CBC6C25A9EBC70078BB3B /* ActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */; };
 		FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC6E25A9EC130078BB3B /* Action.swift */; };
 		FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */; };
-		FDB12F2A261ED92800B972BE /* AJS37ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB12F29261ED92800B972BE /* AJS37ViewController.swift */; };
+		FDA0A3A127CA6C6D0053A139 /* AJS37CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA0A3A027CA6C6D0053A139 /* AJS37CMSViewController.swift */; };
+		FDB12F2A261ED92800B972BE /* AJS37CK37ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB12F29261ED92800B972BE /* AJS37CK37ViewController.swift */; };
+		FDCB894F27CB6BBB002C6B16 /* F18CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB894E27CB6BBB002C6B16 /* F18CMSViewController.swift */; };
+		FDCB895127CB78AE002C6B16 /* Ka50CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895027CB78AE002C6B16 /* Ka50CMSViewController.swift */; };
+		FDCB895327CB790D002C6B16 /* M2000CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895227CB790D002C6B16 /* M2000CMSViewController.swift */; };
+		FDCB895527CB794D002C6B16 /* A10CMSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */; };
+		FDCB895B27CE0FD1002C6B16 /* PanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD2216F425AF81E400FCEC89 /* DCSConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnection.swift; sourceTree = "<group>"; };
 		FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnectionDelegate.swift; sourceTree = "<group>"; };
 		FD24A1C725DF0814009D357F /* Assets License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets License.txt"; sourceTree = "<group>"; };
-		FD3E033D26DB7271005E77EE /* M2000ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000ViewController.swift; sourceTree = "<group>"; };
-		FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50ViewController.swift; sourceTree = "<group>"; };
-		FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16TestViewController.swift; sourceTree = "<group>"; };
-		FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18ViewController.swift; sourceTree = "<group>"; };
+		FD3E033D26DB7271005E77EE /* M2000PCNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000PCNViewController.swift; sourceTree = "<group>"; };
+		FD48A6BA2646B27300FB3FB0 /* Ka50PVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50PVIViewController.swift; sourceTree = "<group>"; };
+		FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16CMSViewControlller.swift; sourceTree = "<group>"; };
+		FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18UFCViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
 		FD7C92D125A2220000FC3DCB /* iUFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iUFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,11 +57,17 @@
 		FD7C92E225A2220100FC3DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7CD17525B244EC0013D55A /* SA342ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SA342ViewController.swift; sourceTree = "<group>"; };
 		FD7CD17825B2454B0013D55A /* JF17ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JF17ViewController.swift; sourceTree = "<group>"; };
-		FD8240C626061A4A009CD3E3 /* A10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10ViewController.swift; sourceTree = "<group>"; };
+		FD8240C626061A4A009CD3E3 /* A10UFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10UFCViewController.swift; sourceTree = "<group>"; };
 		FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionType.swift; sourceTree = "<group>"; };
 		FD9CBC6E25A9EC130078BB3B /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AV8ViewController.swift; sourceTree = "<group>"; };
-		FDB12F29261ED92800B972BE /* AJS37ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJS37ViewController.swift; sourceTree = "<group>"; };
+		FDA0A3A027CA6C6D0053A139 /* AJS37CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJS37CMSViewController.swift; sourceTree = "<group>"; };
+		FDB12F29261ED92800B972BE /* AJS37CK37ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJS37CK37ViewController.swift; sourceTree = "<group>"; };
+		FDCB894E27CB6BBB002C6B16 /* F18CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18CMSViewController.swift; sourceTree = "<group>"; };
+		FDCB895027CB78AE002C6B16 /* Ka50CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50CMSViewController.swift; sourceTree = "<group>"; };
+		FDCB895227CB790D002C6B16 /* M2000CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2000CMSViewController.swift; sourceTree = "<group>"; };
+		FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10CMSViewController.swift; sourceTree = "<group>"; };
+		FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,15 +114,21 @@
 				FD7C92D625A2220000FC3DCB /* SceneDelegate.swift */,
 				FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */,
 				FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */,
-				FD8240C626061A4A009CD3E3 /* A10ViewController.swift */,
-				FDB12F29261ED92800B972BE /* AJS37ViewController.swift */,
+				FDCB895A27CE0FD1002C6B16 /* PanelViewController.swift */,
+				FD8240C626061A4A009CD3E3 /* A10UFCViewController.swift */,
+				FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */,
+				FDB12F29261ED92800B972BE /* AJS37CK37ViewController.swift */,
+				FDA0A3A027CA6C6D0053A139 /* AJS37CMSViewController.swift */,
 				FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */,
 				FD7C92D825A2220000FC3DCB /* F16ICPViewController.swift */,
-				FD4FFF1125BC2FE8006B3772 /* F16TestViewController.swift */,
-				FD5AA67A25A7AB00006D98B1 /* F18ViewController.swift */,
+				FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */,
+				FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */,
+				FDCB894E27CB6BBB002C6B16 /* F18CMSViewController.swift */,
 				FD7CD17825B2454B0013D55A /* JF17ViewController.swift */,
-				FD48A6BA2646B27300FB3FB0 /* Ka50ViewController.swift */,
-				FD3E033D26DB7271005E77EE /* M2000ViewController.swift */,
+				FD48A6BA2646B27300FB3FB0 /* Ka50PVIViewController.swift */,
+				FDCB895027CB78AE002C6B16 /* Ka50CMSViewController.swift */,
+				FD3E033D26DB7271005E77EE /* M2000PCNViewController.swift */,
+				FDCB895227CB790D002C6B16 /* M2000CMSViewController.swift */,
 				FD7CD17525B244EC0013D55A /* SA342ViewController.swift */,
 				FD9CBC6B25A9EBC70078BB3B /* ActionType.swift */,
 				FD9CBC6E25A9EC130078BB3B /* Action.swift */,
@@ -196,21 +214,27 @@
 			files = (
 				FD6CA7A625A9D82100BBC394 /* HomeViewController.swift in Sources */,
 				FD6CA7AA25A9DC4800BBC394 /* PlaneViewController.swift in Sources */,
-				FD5AA67B25A7AB00006D98B1 /* F18ViewController.swift in Sources */,
+				FD5AA67B25A7AB00006D98B1 /* F18UFCViewController.swift in Sources */,
 				FD7C92D925A2220000FC3DCB /* F16ICPViewController.swift in Sources */,
-				FD8240C726061A4A009CD3E3 /* A10ViewController.swift in Sources */,
+				FDCB895527CB794D002C6B16 /* A10CMSViewController.swift in Sources */,
+				FD8240C726061A4A009CD3E3 /* A10UFCViewController.swift in Sources */,
 				FD2216F825AF8C5C00FCEC89 /* DCSConnectionDelegate.swift in Sources */,
 				FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */,
 				FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */,
 				FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */,
+				FDCB895B27CE0FD1002C6B16 /* PanelViewController.swift in Sources */,
+				FDA0A3A127CA6C6D0053A139 /* AJS37CMSViewController.swift in Sources */,
 				FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */,
 				FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */,
-				FDB12F2A261ED92800B972BE /* AJS37ViewController.swift in Sources */,
-				FD3E033E26DB7271005E77EE /* M2000ViewController.swift in Sources */,
+				FDB12F2A261ED92800B972BE /* AJS37CK37ViewController.swift in Sources */,
+				FD3E033E26DB7271005E77EE /* M2000PCNViewController.swift in Sources */,
+				FDCB894F27CB6BBB002C6B16 /* F18CMSViewController.swift in Sources */,
 				FD7C92D725A2220000FC3DCB /* SceneDelegate.swift in Sources */,
-				FD48A6BB2646B27300FB3FB0 /* Ka50ViewController.swift in Sources */,
+				FDCB895327CB790D002C6B16 /* M2000CMSViewController.swift in Sources */,
+				FD48A6BB2646B27300FB3FB0 /* Ka50PVIViewController.swift in Sources */,
+				FDCB895127CB78AE002C6B16 /* Ka50CMSViewController.swift in Sources */,
 				FD9CBC6C25A9EBC70078BB3B /* ActionType.swift in Sources */,
-				FD4FFF1225BC2FE8006B3772 /* F16TestViewController.swift in Sources */,
+				FD4FFF1225BC2FE8006B3772 /* F16CMSViewControlller.swift in Sources */,
 				FD7CD17925B2454B0013D55A /* JF17ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,14 +384,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 40;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -382,14 +406,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 40;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.6;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

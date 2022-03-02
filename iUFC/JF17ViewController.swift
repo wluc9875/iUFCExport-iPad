@@ -18,7 +18,7 @@
 
 import UIKit
 
-class JF17ViewController: PlaneViewController {
+class JF17ViewController: PanelViewController {
     @IBOutlet var osbLabel1: UILabel!
     @IBOutlet var osbLabel2: UILabel!
     @IBOutlet var osbLabel3: UILabel!
@@ -73,8 +73,8 @@ class JF17ViewController: PlaneViewController {
             Action(type: .pushButton, deviceId: 46, commandId: 3225), // UFCP Button BLANKNUM (25)
             Action(type: .pushButton, deviceId: 46, commandId: 3228), // UFCP Button BLANKMODE1 (26)
             Action(type: .pushButton, deviceId: 46, commandId: 3229), // UFCP Button BLANKMODE2 (27)
-            Action(type: .momentary3Way, deviceId: 46, commandId: 3232, argument: -1.0), // FAST SELECT INC (28)
-            Action(type: .momentary3Way, deviceId: 46, commandId: 3232), // FAST SELECT DEC (29)
+            Action(type: .pushButton, deviceId: 46, commandId: 3232, argument: -1.0), // FAST SELECT INC (28)
+            Action(type: .pushButton, deviceId: 46, commandId: 3232), // FAST SELECT DEC (29)
         ]
         
         originalSwitchImages = [
@@ -94,7 +94,7 @@ class JF17ViewController: PlaneViewController {
     }
     
     override func updateDisplays(with content: [String: String]) {
-        let lights = content["lights"] ?? ""
+        let lights = (content["lights"] ?? "").split(separator: " ")
         let buttons: [UIButton] = [oapButton, mrkButton, puButton, hnsButton, apButton, fpmButton]
         let text1 = formatLine(number: 0, from: content)
         let text2 = formatLine(number: 1, from: content)
