@@ -18,12 +18,15 @@
 
 import Foundation
 import UIKit
+import AVFoundation
 
 class PanelViewController: UIViewController {
     var actions = [Action]()
     var originalSwitchImages = [Int: String]()
     var alternateSwitchImages = [Int: String]()
     var actionToViewDict = [Int: UIImageView]()
+    
+    var audioPlayer:AVAudioPlayer?
     
     weak var dcsConnection: DCSConnection?
     
@@ -37,6 +40,18 @@ class PanelViewController: UIViewController {
     
     func updateDisplays(with content: [String: String]) {}
     
+    func doAudioPlay(soundfilename:String) {
+        let playUrl = Bundle.main.url(forResource: soundfilename, withExtension: "mp3")
+
+        do {
+            try audioPlayer = AVAudioPlayer(contentsOf: playUrl!)
+            print("doAudioPlay sucessfully")
+        } catch {
+            print("doAudioPlay failed")
+        }
+        audioPlayer?.play()
+    }
+ 
     @IBAction func buttonPushed(_ sender: UIButton) {
         if let imageName = alternateSwitchImages[sender.tag] {
             if let imageView = actionToViewDict[sender.tag] {
@@ -60,6 +75,8 @@ class PanelViewController: UIViewController {
            action.decreaseArgument()
            actionCW.decreaseArgument()
        }
+        
+        doAudioPlay(soundfilename: "Button_Click")
         
         print("\(action.deviceId) \(action.commandId) \(action.argument)")
         let message = "\(action.deviceId) \(action.commandId) \(action.argument)\n"
