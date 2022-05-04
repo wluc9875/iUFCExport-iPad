@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94BA79B0281C005400128349 /* Button_Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94BA79AF281C005400128349 /* Button_Click.mp3 */; };
+		94BA79B4281C00B200128349 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BA79B3281C00B200128349 /* AVFoundation.framework */; };
 		FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F425AF81E400FCEC89 /* DCSConnection.swift */; };
 		FD2216F825AF8C5C00FCEC89 /* DCSConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */; };
 		FD24A1C825DF0814009D357F /* Assets License.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD24A1C725DF0814009D357F /* Assets License.txt */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94BA79AF281C005400128349 /* Button_Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Button_Click.mp3; sourceTree = "<group>"; };
+		94BA79B3281C00B200128349 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FD2216F425AF81E400FCEC89 /* DCSConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnection.swift; sourceTree = "<group>"; };
 		FD2216F725AF8C5C00FCEC89 /* DCSConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCSConnectionDelegate.swift; sourceTree = "<group>"; };
 		FD24A1C725DF0814009D357F /* Assets License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Assets License.txt"; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BA79B4281C00B200128349 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,7 @@
 		31424C9325A46B6400809D73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94BA79B3281C00B200128349 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,6 +114,7 @@
 		FD7C92D325A2220000FC3DCB /* iUFC */ = {
 			isa = PBXGroup;
 			children = (
+				94BA79AF281C005400128349 /* Button_Click.mp3 */,
 				FD7C92DF25A2220100FC3DCB /* LaunchScreen.storyboard */,
 				FD7C92DA25A2220000FC3DCB /* Main.storyboard */,
 				FD7C92D425A2220000FC3DCB /* AppDelegate.swift */,
@@ -201,6 +208,7 @@
 				FD7C92E125A2220100FC3DCB /* LaunchScreen.storyboard in Resources */,
 				FD7C92DE25A2220100FC3DCB /* Assets.xcassets in Resources */,
 				FD24A1C825DF0814009D357F /* Assets License.txt in Resources */,
+				94BA79B0281C005400128349 /* Button_Click.mp3 in Resources */,
 				FD7C92DC25A2220000FC3DCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,13 +320,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -367,12 +377,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				RESOURCES_TARGETED_DEVICE_FAMILY = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -385,17 +397,18 @@
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 40;
-				DEVELOPMENT_TEAM = RWHE6C7LFV;
+				DEVELOPMENT_TEAM = HP2W35MNTL;
 				INFOPLIST_FILE = iUFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryantu.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -407,17 +420,18 @@
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 40;
-				DEVELOPMENT_TEAM = RWHE6C7LFV;
+				DEVELOPMENT_TEAM = HP2W35MNTL;
 				INFOPLIST_FILE = iUFC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.7;
-				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryantu.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

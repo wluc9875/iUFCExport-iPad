@@ -18,6 +18,7 @@
 
 import UIKit
 
+//In Xcode 11, @UIApplicationMain
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
