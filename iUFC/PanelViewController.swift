@@ -81,6 +81,8 @@ class PanelViewController: UIViewController {
         let action = actions[sender.tag]
         print("\(action.deviceId) \(action.commandId) \(action.minimum)")
         let message = "\(action.deviceId) \(action.commandId) \(action.minimum)\n"
-        dcsConnection?.sendMessage(content: message)
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(1), execute: {
+            self.dcsConnection?.sendMessage(content: message)
+        })
     }
 }
