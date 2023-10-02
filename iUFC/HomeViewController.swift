@@ -21,8 +21,10 @@ import UIKit
 class HomeViewController: UITableViewController {
     let supportedPlanes = [
         "A-10C",
+        "AH-64D",
         "AJS37",
         "AV8-BNA",
+        "F-15E",
         "F-16C",
         "FA-18C",
         "JF17",

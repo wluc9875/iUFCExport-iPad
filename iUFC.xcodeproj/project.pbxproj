@@ -14,6 +14,8 @@
 		FD48A6BB2646B27300FB3FB0 /* Ka50PVIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD48A6BA2646B27300FB3FB0 /* Ka50PVIViewController.swift */; };
 		FD4FFF1225BC2FE8006B3772 /* F16CMSViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */; };
 		FD5AA67B25A7AB00006D98B1 /* F18UFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */; };
+		FD5EB2FE2AA6538C0096D892 /* AH64KUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EB2FD2AA6538C0096D892 /* AH64KUViewController.swift */; };
+		FD5EB3002AA654210096D892 /* F15EUFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5EB2FF2AA654210096D892 /* F15EUFCViewController.swift */; };
 		FD6CA7A625A9D82100BBC394 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */; };
 		FD6CA7AA25A9DC4800BBC394 /* PlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */; };
 		FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C92D425A2220000FC3DCB /* AppDelegate.swift */; };
@@ -45,6 +47,8 @@
 		FD48A6BA2646B27300FB3FB0 /* Ka50PVIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ka50PVIViewController.swift; sourceTree = "<group>"; };
 		FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F16CMSViewControlller.swift; sourceTree = "<group>"; };
 		FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F18UFCViewController.swift; sourceTree = "<group>"; };
+		FD5EB2FD2AA6538C0096D892 /* AH64KUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AH64KUViewController.swift; sourceTree = "<group>"; };
+		FD5EB2FF2AA654210096D892 /* F15EUFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F15EUFCViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A525A9D82100BBC394 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FD6CA7A925A9DC4800BBC394 /* PlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneViewController.swift; sourceTree = "<group>"; };
 		FD7C92D125A2220000FC3DCB /* iUFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iUFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +123,9 @@
 				FDCB895427CB794D002C6B16 /* A10CMSViewController.swift */,
 				FDB12F29261ED92800B972BE /* AJS37CK37ViewController.swift */,
 				FDA0A3A027CA6C6D0053A139 /* AJS37CMSViewController.swift */,
+				FD5EB2FD2AA6538C0096D892 /* AH64KUViewController.swift */,
 				FD9CBC7325AB85B10078BB3B /* AV8ViewController.swift */,
+				FD5EB2FF2AA654210096D892 /* F15EUFCViewController.swift */,
 				FD7C92D825A2220000FC3DCB /* F16ICPViewController.swift */,
 				FD4FFF1125BC2FE8006B3772 /* F16CMSViewControlller.swift */,
 				FD5AA67A25A7AB00006D98B1 /* F18UFCViewController.swift */,
@@ -222,7 +228,9 @@
 				FD7C92D525A2220000FC3DCB /* AppDelegate.swift in Sources */,
 				FD9CBC6F25A9EC130078BB3B /* Action.swift in Sources */,
 				FD2216F525AF81E400FCEC89 /* DCSConnection.swift in Sources */,
+				FD5EB3002AA654210096D892 /* F15EUFCViewController.swift in Sources */,
 				FDCB895B27CE0FD1002C6B16 /* PanelViewController.swift in Sources */,
+				FD5EB2FE2AA6538C0096D892 /* AH64KUViewController.swift in Sources */,
 				FDA0A3A127CA6C6D0053A139 /* AJS37CMSViewController.swift in Sources */,
 				FD7CD17625B244EC0013D55A /* SA342ViewController.swift in Sources */,
 				FD9CBC7425AB85B10078BB3B /* AV8ViewController.swift in Sources */,
@@ -384,14 +392,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -406,14 +414,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = iUFC/iUFC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 45;
+				CURRENT_PROJECT_VERSION = 50;
 				DEVELOPMENT_TEAM = RWHE6C7LFV;
 				INFOPLIST_FILE = iUFC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.7.1;
+				MARKETING_VERSION = 1.8;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.lwalterthum.iUFCExport;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
