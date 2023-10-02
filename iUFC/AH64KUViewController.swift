@@ -19,12 +19,7 @@
 import UIKit
 
 class AH64KUViewController: PanelViewController {
-    /*@IBOutlet var steerImageView: UIImageView!
-     @IBOutlet var dataImageView: UIImageView!
-     @IBOutlet var selImageView: UIImageView!
-     @IBOutlet var deprImageView: UIImageView!
-     @IBOutlet var intenImageView: UIImageView!
-     @IBOutlet var masterCautionButton: UIButton!*/
+    @IBOutlet var kuLabel: UILabel!
     
     override func initActions() {
         actions = [
@@ -80,14 +75,9 @@ class AH64KUViewController: PanelViewController {
         ]
     }
     
-    override func updateDisplays(with content: [String: String]) {
-        /*let caution = content["caution"] ?? ""
-         
-         DispatchQueue.main.async {
-         self.masterCautionButton.isSelected = (caution == "1")
-         }
-        
-        defineString("PLT_KU_DISPLAY", function() return txt_PLT_KU end, 22, "PLT Keyboard Unit", "Pilot Keyboard Unit Display")
-         */
+    override func updateDisplays(with content: [String: String]) {        
+        DispatchQueue.main.async {
+            self.kuLabel.text = content["Standby_text"]
+        }
     }
 }

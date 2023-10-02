@@ -19,12 +19,24 @@
 import UIKit
 
 class F15EUFCViewController: PanelViewController {
-    /*@IBOutlet var steerImageView: UIImageView!
-     @IBOutlet var dataImageView: UIImageView!
-     @IBOutlet var selImageView: UIImageView!
-     @IBOutlet var deprImageView: UIImageView!
-     @IBOutlet var intenImageView: UIImageView!
-     @IBOutlet var masterCautionButton: UIButton!*/
+    @IBOutlet var sc01Label: UILabel!
+    @IBOutlet var sc02Label: UILabel!
+    @IBOutlet var sc03Label: UILabel!
+    @IBOutlet var sc04Label: UILabel!
+    @IBOutlet var sc05Label: UILabel!
+    @IBOutlet var sc05ALabel: UILabel!
+    @IBOutlet var sc06Label: UILabel!
+    @IBOutlet var sc07Label: UILabel!
+    @IBOutlet var sc08Label: UILabel!
+    @IBOutlet var sc08ALabel: UILabel!
+    @IBOutlet var sc09Label: UILabel!
+    @IBOutlet var sc10Label: UILabel!
+    @IBOutlet var sc11Label: UILabel!
+    @IBOutlet var sc12Label: UILabel!
+    @IBOutlet var cc01Label: UILabel!
+    @IBOutlet var cc02Label: UILabel!
+    @IBOutlet var cc03Label: UILabel!
+    @IBOutlet var cc04Label: UILabel!
     
     override func initActions() {
         actions = [
@@ -71,10 +83,30 @@ class F15EUFCViewController: PanelViewController {
     }
     
     override func updateDisplays(with content: [String: String]) {
-        /*let caution = content["caution"] ?? ""
-         
-         DispatchQueue.main.async {
-         self.masterCautionButton.isSelected = (caution == "1")
-         }*/
+        DispatchQueue.main.async {
+            self.sc01Label.text = content["UFC_SC_01"]
+            self.sc02Label.text = content["UFC_SC_02"]
+            self.sc03Label.text = content["UFC_SC_03"]
+            self.sc04Label.text = content["UFC_SC_04"]
+            let sc05Text = content["UFC_SC_05"] ?? ""
+            self.sc05Label.text = sc05Text
+            self.sc05ALabel.text = content["UFC_SC_05A"]
+            self.sc06Label.text = content["UFC_SC_06"]
+            self.sc07Label.text = content["UFC_SC_07"]
+            var sc08Text = (content["UFC_SC_08"] ?? "").trimmingCharacters(in: .whitespaces)
+            if sc08Text.count < 8 {
+                sc08Text = sc08Text + "_"
+            }
+            self.sc08Label.text = sc08Text
+            self.sc08ALabel.text = content["UFC_SC_08A"]
+            self.sc09Label.text = content["UFC_SC_09"]
+            self.sc10Label.text = content["UFC_SC_10"]
+            self.sc11Label.text = content["UFC_SC_11"]
+            self.sc12Label.text = content["UFC_SC_12"]
+            self.cc01Label.text = content["UFC_CC_01"]
+            self.cc02Label.text = content["UFC_CC_02"]
+            self.cc03Label.text = content["UFC_CC_03"]
+            self.cc04Label.text = content["UFC_CC_04"]
+        }
     }
 }
